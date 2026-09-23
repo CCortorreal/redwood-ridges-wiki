@@ -26,7 +26,7 @@ Commands needing details open in chat for you to finish.
 
 ### Trade and Craft
 
-The auction house is the Auctioneer at spawn (`/ah` only opens there); the rune guide is a menu; the guild is a portal.
+The auction house is the Auctioneer at spawn (`/ah` only works at the market); the rune guide is a menu; the guild is a portal.
 
 - **Auction House:** `/ah`
 - **Rune Guide:** `/enchants`

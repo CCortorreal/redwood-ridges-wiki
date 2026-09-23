@@ -4,9 +4,9 @@ Two ways to trade, both at the market square by spawn: a stall where people can 
 
 ### The Auctioneer
 
-The auction house lives with the **Auctioneer** at the market square. Right-click the Auctioneer (the villager, or the market counter) to open it.
-Typing `/ah` anywhere else just points you back to spawn: no magic pockets, walk to market.
-Once it's open: hold the item and use `/ah sell <price>` to list it for that price, or `/ah bid <price>` to start an auction.
+The auction house lives with the **Auctioneer** at the market square. Right-click any of the Auctioneer villagers to open it.
+Typing `/ah` away from the market just points you back to spawn: no magic pockets, walk to market.
+At the counter, hold the item and type `/ah sell <price>` to list it for that price, or `/ah bid <price>` to start an auction.
 Buyers browse the same menu; a bought item goes to your collection box until you claim it.
 The camp retires **1%** of every sale as the auction fee. That money leaves the server for good.
 Listings last two days; auctions last two hours.

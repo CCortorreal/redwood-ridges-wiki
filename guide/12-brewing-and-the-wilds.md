@@ -4,11 +4,55 @@ New land should hold worthwhile loot, though some loaded plugins still need tuni
 
 ### Camp Brewing
 
-**BreweryX** adds brewing and is loaded and ready to use.
-It supports cauldrons, distilling, and aging drinks over time.
-Server operators choose which camp recipes are active.
-Ask other players in chat about what's available.
-Old draft recipes may no longer work on the server.
+**BreweryX** turns a cauldron into a still. Nothing to unlock, no special block to buy.
+Every camper can brew, distill, and age.
+
+You need: a **cauldron** over a **campfire or fire**, a **water bucket**, a **clock**, and **glass bottles**.
+Spirits also want a **brewing stand** with **glowstone dust**. Aged drinks want a **barrel**.
+
+- Fill the cauldron with water and light the fire under it.
+- Right-click it with each ingredient, one item at a time.
+- Right-click with a clock to read how many minutes it has cooked.
+- At the recipe's minute, right-click with glass bottles to draw the brew.
+
+Timing decides quality. Too early or too late and the bottle says so.
+
+### Distilling and Aging
+
+**Distill:** put the bottles in a brewing stand with glowstone dust on top.
+The dust is a filter and isn't used up. Each run takes about a minute.
+Run it exactly as many times as the recipe asks. Extra runs spoil it.
+
+**Age:** a plain vanilla barrel works and holds six bottles.
+One year of aging is twenty real minutes. Some drinks care which wood the barrel is.
+A hand-built barrel is eight matching stairs in a ring with a sign that says **Barrel** on its first line.
+The big one is eighteen planks, sixteen stairs and five fences, same sign.
+
+Drunk campers slur in chat, stumble, and may be sick.
+Bread and milk sober you up. Sleep it off before you log out or the door won't open.
+
+### What to Brew
+
+Cook is minutes in the cauldron. Distill is brewing-stand runs. Age is barrel years.
+
+| Drink | Ingredients | Cook · Distill · Age |
+|---|---|---|
+| Hot Chocolate | 3 cookies | 2 · 0 · 0 |
+| Coffee | 12 cocoa beans, 2 milk | 2 · 0 · 0 · sobers you |
+| Potato Soup | 5 potatoes, 3 short grass | 3 · 0 · 0 |
+| Wheatbeer | 3 wheat | 8 · 0 · 2 in birch |
+| Beer | 6 wheat | 8 · 0 · 3 any wood |
+| Mead | 6 sugar cane | 3 · 0 · 4 in oak |
+| Apple Cider | 14 apples | 7 · 0 · 3 any wood |
+| Red Wine | 5 sweet berries | 5 · 0 · 20 any wood |
+| Eggnog | 5 eggs, 2 sugar, 1 milk | 2 · 0 · 3 |
+| Vodka | 10 potatoes | 15 · 3 · 0 |
+| Rum | 18 sugar cane | 6 · 2 · 14 in oak |
+| Whiskey | 10 wheat | 10 · 2 · 18 in spruce |
+| Tequila | 8 cactus | 15 · 2 · 12 in birch |
+| Absinthe | 15 short grass | 3 · 6 · 0 · poison |
+
+Harder drinks punish sloppy timing. Start with cocoa, beer, or mead.
 
 ### Structures First
 

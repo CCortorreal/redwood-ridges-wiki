@@ -32,6 +32,8 @@ These are the launch costs, but a newer public amendment replaces any older pric
 | Stall sales | 0% | the camp takes no cut |
 | Auction fee | 1% | of each sale, retired for good |
 
+- **Open Auction House:** `/ah`
+
 ### Dying
 
 | Action | Marshmallows | Note |
@@ -39,8 +41,6 @@ These are the launch costs, but a newer public amendment replaces any older pric
 | Pray at Death's statue | 25 | first death; doubles per death in a streak, cap 800 |
 | Streak reset | 0 | 24 hours without dying |
 | Walk to your grave | 0 | always free |
-
-- **Open Auction House:** `/ah`
 
 ### Announced Costs
 
