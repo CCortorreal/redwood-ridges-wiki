@@ -27,7 +27,7 @@ Your first official payout makes you a **Scout**.
 Each rank lets you hold more board jobs at once and rolls better runes at the enchanting table.
 Ranks are about standing, not power: none of them makes you staff.
 **Wardens** are the camp's moderators, a separate trust role the operator hands out by name.
-A shield ⛨ beside a name means that Scout is a Warden — on watch for the camp. Ask them for help.
+A shield ⛨ beside a name marks camp staff: silver for a Warden, gold for the operator. They are on watch for the camp, so ask them for help.
 
 ### Climbing It
 
