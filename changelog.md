@@ -3,6 +3,56 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
+## Staged for the next restart — RedwoodBoard 1.9.7, RedwoodLens 0.11.0 (not live yet)
+
+Both jars are in `/plugins` since 14:06 CDT 2026-09-24 and load at the next boot. The Discord
+routing lines below are already in the live config and take effect at that boot too.
+
+**RedwoodBoard 1.9.7** (285,407 B, calliope main `dec202b` + `007c0c1`, includes 1.9.6):
+
+- `/makecontract` always hangs the new book in an empty board frame (1.9.6). The chest path is gone.
+- **Board hover status.** The book's display name carries its live state, which is what the item
+  frame shows: `open 0/2`, `Tylerbro1 · 1/2`, `… · full`, `… · needs N more`,
+  `… · ready for review`, `… · closed`, `… · paid`. Claimant names cut at 10 characters, two
+  shown, then `+N`. Only the name changes. The book's pages, title and author (what identifies a
+  contract) are untouched.
+- **Crew minimum.** A range like "2-4 builders" now sets a minimum of 2, and "N builders" / "duo"
+  set the minimum to the full crew. It's checked at **Mark ready**, at pay and at verify, not at
+  claim, so a crew can gather over time. It only applies to books made with `/makecontract` from
+  1.9.7 on (a flag on the book), so jobs already on the wall aren't blocked mid-build.
+- **`/tip`** (staff, `rr.board.tip`). A dialog: pick a player, an amount or a preset, a reason,
+  confirm. Announced in chat and in `#campfire` (EssentialsDiscord type `rr-tip`). Draws on a
+  weekly pot (1,000, resets Monday 00:00 America/Chicago). An overdraft warns staff but still
+  pays. Every tip writes a receipt (`kind=tip`, faucet `public_works`). `/tip log` shows the week.
+- **Paid-out push.** Multi-slot jobs post "💰 {title} paid out — …" to `#campfire` when the last
+  payout lands (`discord-push.events.campfire` gains `paid`). Single-slot jobs keep their one
+  "completed" line.
+
+**RedwoodLens 0.11.0** (149,293 B, calliope main `23558e8`): world events → Discord through
+EssentialsX Discord message types. Each source is skipped quietly if its plugin is absent.
+
+- `rr-world` → `#campfire`: towns founded, residents joining, towns opening or closing (Towny);
+  non-natural EliteMobs boss kills and dungeon clears; AuraSkills levels every 5th level; auction
+  sales of 100+ marshmallows. At most 10 posts a minute across all kinds, plus a per-kind cooldown.
+- `rr-auction` → `#auction-house`: every listing, sale and expiry. AuctionHouse 1.5.5 fires no
+  events, so Lens polls its storage every 5 s and diffs.
+- `plugins/RedwoodLens/world.json` (`rr-lens/world/v1`): towns (mayor, residents, open, public,
+  board text, spawn, nation, ruined, recruiting) and nations. Rewritten 15 s after a Towny change.
+  Union Rep builds `#the-world` from it.
+
+## Discord, live 14:02 CDT 2026-09-24 — Union Rep mirror fixes (tabletop main `c98bab9`)
+
+- **`#contracts` drift fixed.** Three bugs: one failing contract used to stop the whole update
+  pass (and every contract after it in the list); a thread could only archive after a payout was
+  recorded in `archive.json`; a reopened job left its old thread live. Now each contract is
+  isolated, a contract missing from two reads in a row archives (never deletes), a superseded
+  run archives at once, and two live jobs sharing a title are reported to staff, not merged.
+- **`#campfire` topic** shows who's on now, from the same heartbeat as `#server-status`,
+  rewritten at most every 5 minutes. `#server-status` is unchanged.
+- **`#the-world`** (new forum): one post per town and nation, tagged open / closed / recruiting /
+  ruined. It fills once RedwoodLens 0.11.0 is live.
+- **`#auction-house`** (new): posted by the server only, fed by `rr-auction`.
+
 ## Restart 04:01 CDT 2026-09-24 — RedwoodBoard 1.9.4, rr-advfix update, BlueMap, Warden shield pack
 
 **RedwoodBoard 1.9.4** (242,456 B, calliope `b5b66ee`):

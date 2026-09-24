@@ -13,7 +13,10 @@ Put claims and payout splits in text so everyone can check them.
 ### Camp Discord
 
 The camp Discord holds official notices and offline plans.
-`#campfire` is the camp's general community hangout channel.
+`#campfire` is the camp's general community hangout channel. Chat there reaches the game and the other way round, and its header shows who's online.
+`#contracts` has one thread per board job and follows the board as it changes.
+`#the-world` keeps a card for every town and nation: mayor, residents, open or closed.
+`#auction-house` shows what's listed at the Auctioneer and what sells.
 `#server-status` shows server uptime and the current player count.
 Union Rep provides help, map, and group commands.
 Minecraft ranks don't sync to Discord roles yet.

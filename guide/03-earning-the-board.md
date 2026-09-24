@@ -6,6 +6,8 @@ The board lists paid work the camp needs.
 
 Each contract lists the job, payout, deadline, and completion rules.
 Some jobs are solo; others need a crew.
+Look at a book on the board and its name tells you where it stands: open, who holds it, how many more a crew still needs, or ready for review.
+A crew job like "2-4 builders" needs at least its smallest crew on the claim before **Mark ready** works.
 Groups choose one payee or agree on the split before starting.
 Ask in chat before building if anything seems unclear.
 

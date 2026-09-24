@@ -1,6 +1,29 @@
 # What's New — 24 September 2026
 
-> Everything here is live. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
+> Everything here is live unless its heading says otherwise. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
+
+## Coming at the next restart — not live yet
+
+- **See who's on a job without opening it.** Look at a book on the board: its name shows whether
+  it's open, who holds it (`Tylerbro1 · 1/2`), how many more a crew job still needs, or that
+  it's ready for review or paid.
+- **Crew jobs need their crew.** A job that says "2-4 builders" needs at least 2 people on it
+  before **Mark ready** works. You'll see "This job needs at least 2 builders — 1 so far." Crews
+  can gather over time. Jobs already on the wall aren't affected, only new ones.
+- **New jobs always go up on a board frame**, never into a chest.
+- **Staff tips.** When staff reward someone for making the camp better (defending a raid,
+  helping a player, donating to the public), it's announced in chat and on Discord.
+- **The world reaches Discord.** `#campfire` hears about new towns and residents, boss kills,
+  dungeon clears, skill milestones and big auction sales. `#auction-house` lists everything
+  going up for sale and what sells. `#the-world` keeps a live card for every town and nation.
+
+## Thursday afternoon on Discord (live since 14:02 CDT)
+
+- **`#contracts` matches the board again.** Missing jobs get their threads, finished ones close,
+  and no more doubled threads.
+- **`#campfire`'s header shows who's on right now.**
+- **Two new channels:** `#auction-house` and the `#the-world` forum. They fill in after the
+  next restart.
 
 ## Early Thursday (restart 04:01 CDT)
 
