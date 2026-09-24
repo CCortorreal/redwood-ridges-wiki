@@ -1,9 +1,15 @@
-# What's New — 22 September 2026
+# What's New — 23 September 2026
 
 > Everything here is live. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
 
 ## The short version
 
+- **New players get a guided first walk.** Arrive at each of 8 camp landmarks and a gold waypoint
+  marker leads you to the next one, with a few Marshmallows along the way.
+- **The archive is one place now.** `/contracts archive` (or `/contracts ledger`) opens the same
+  chest for everyone; click any job to see the full card.
+- **Trim materials stack properly**, and **Autoreel rods give fishing XP again.**
+- **A second family of runes** lives in the camp's ruins, not just the enchanting table.
 - **The market is a place.** The auction house lives with the **Auctioneer at spawn**, and six stall
   plots sit at the market square. `/ah` from your pocket doesn't work anymore; walk to market.
 - **Death's statue keeps your grave.** Pray at the statue in the graveyard to be carried back. It
@@ -17,6 +23,16 @@
 - **Towns can buy land.** `/town buy bonus <n>` spends Marshmallows on extra claim blocks.
 - **The world is bigger.** Border 3000 wide, centred on spawn. The Treeline markers on the web map
   sit on the real edge.
+
+---
+
+## Your first walk around camp
+
+New arrivals get a self-guided tour of the camp: the board, the Ranger Station, storage, the
+craft room, the graveyard, the cabins, the market, then back to the board. A gold waypoint
+marker points you to each stop in turn, and a sidebar tracks how many you've hit. Marshmallows
+land in your pocket along the way, and the tour closes by pointing you at your first real job on
+the board. Nothing about it is required reading; just walk where the marker points.
 
 ---
 
@@ -67,7 +83,8 @@ prerequisite.
 - **Claiming still happens at the board** — click the book on the shelf at spawn.
 - **Claim caps by rank** (table above). If a claim is refused, that's the cap — finish one or give
   one up.
-- `/contracts archive` browses finished work with Previous / Next buttons.
+- **`/contracts archive` and `/contracts ledger` are the same place now.** Click any book for the
+  full job card — the original posting plus who got paid and when.
 - Staff post contracts from an in-game form now (`/makecontract`) — expect more, smaller jobs.
 - **Bedrock players:** contracts, payouts, ranks and crew cards all work with your dot-name.
 
@@ -80,6 +97,18 @@ prerequisite.
   Seedling 25 % · Scout 35 % · Ranger 45 % · Pathfinder 55 % · Scout Master 60 %, plus 10 % when
   another player is standing nearby (cap 70 %). Enchant together.
 - **Excavator wears your pick.** The extra blocks it breaks now cost durability like they should.
+- **A second family of runes, Ruin Runes, lives out in the world** — dungeon librarians and their
+  loot chests, not the enchanting table. See the [field guide's Ruin Runes
+  table](guide/14-runes-and-enchanting.md#ruin-runes) for the full list and where to find each one.
+
+## Small fixes worth knowing about
+
+- **Trim materials stack properly now** — fish, dye, and the rest of the trim set merge into one
+  stack instead of splitting every time you pick more up.
+- **Autoreel rods give fishing XP again**, same as reeling in by hand.
+- **Advancements are fairer now.** "Kilometre Walk" no longer pops the moment you log in, and a
+  "craft it" advancement now means you actually crafted it — a reward, a chest pull, or a trade
+  no longer counts. Nothing you've already earned is taken away.
 
 ## The Adventurer's Guild (EliteMobs)
 

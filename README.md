@@ -3,7 +3,8 @@
 A small civilization growing out of a ranger camp in the pines. Minecraft (Java + Bedrock), Paper 26.2.
 
 - **Server:** `104.204.220.59:25565` · **Map:** http://104.204.220.59:8100 · **Discord:** https://discord.gg/TqPYyJcdXF
-- **[What's New — 22 September 2026](whats-new.md)** — the market, Death's statue, ranks, runes, the Guild.
+- **[What's New — 23 September 2026](whats-new.md)** — the market, Death's statue, ranks, runes, the Guild.
+- **[Changelog](changelog.md)** — version numbers and mechanism, for anyone who wants the technical detail.
 
 ## The Scout's Field Guide
 
