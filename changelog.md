@@ -3,7 +3,7 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
-## Staged for the next restart — RedwoodBoard 1.9.7, RedwoodLens 0.11.0 (not live yet)
+## Staged for the next restart — RedwoodBoard 1.9.7, RedwoodLens 0.11.1 (not live yet)
 
 Both jars are in `/plugins` since 14:06 CDT 2026-09-24 and load at the next boot. The Discord
 routing lines below are already in the live config and take effect at that boot too.
@@ -28,15 +28,16 @@ routing lines below are already in the live config and take effect at that boot 
   payout lands (`discord-push.events.campfire` gains `paid`). Single-slot jobs keep their one
   "completed" line.
 
-**RedwoodLens 0.11.0** (149,293 B, calliope main `23558e8`): world events → Discord through
+**RedwoodLens 0.11.1** (156,900 B, calliope main `23558e8` + `ea19103`): world events → Discord through
 EssentialsX Discord message types. Each source is skipped quietly if its plugin is absent.
 
 - `rr-world` → `#campfire`: towns founded, residents joining, towns opening or closing (Towny);
   non-natural EliteMobs boss kills and dungeon clears; AuraSkills levels every 5th level. At most 10 posts a minute across all kinds, plus a per-kind cooldown.
 - The auction watcher (AuctionHouse 1.5.5 fires no events, so Lens polls its storage every 5 s and
-  diffs) ships **off** (`auction-stream.enabled: false` in the live config). As built, its first
-  poll after every boot re-posted every stored listing. It returns with the `#auction-house` forum
-  (below), together with the 100+ marshmallow sale highlights in `#campfire`.
+  diffs). 0.11.0 re-posted every stored listing on each boot; 0.11.1 primes silently on the first
+  poll. It writes `plugins/RedwoodLens/auctions.json` (`rr-lens/auctions/v1`: id, seller, item,
+  amount, price, status for_sale/sold/expired, buyer, enchants) and posts 100+ marshmallow sales to
+  `#campfire`. The old `rr-auction` text stream is off (`auction-stream.text-enabled: false`).
 - `plugins/RedwoodLens/world.json` (`rr-lens/world/v1`): towns (mayor, residents, open, public,
   board text, spawn, nation, ruined, recruiting) and nations. Rewritten 15 s after a Towny change.
   Union Rep builds `#the-world` from it.
@@ -51,10 +52,11 @@ EssentialsX Discord message types. Each source is skipped quietly if its plugin 
 - **`#campfire` topic** shows who's on now, from the same heartbeat as `#server-status`,
   rewritten at most every 5 minutes. `#server-status` is unchanged.
 - **`#the-world`** (new forum): one post per town and nation, tagged open / closed / recruiting /
-  ruined. It fills once RedwoodLens 0.11.0 is live.
+  ruined. It fills once RedwoodLens 0.11.1 is live.
 - **`#auction-house`** (new forum, recreated 14:16 CDT; the text channel was empty): one post per
   auction item, tagged For sale / Sold / Expired, written by Union Rep from a RedwoodLens
-  `auctions.json`. Being built now; it rides a later restart. EssentialsDiscord `rr-auction` is `none`.
+  `auctions.json` (tabletop `b8d0c16`). Up to 8 new posts per pass; items already sold or expired
+  before the first pass are skipped. It fills once RedwoodLens 0.11.1 is live. EssentialsDiscord `rr-auction` is `none`.
 
 ## Restart 04:01 CDT 2026-09-24 — RedwoodBoard 1.9.4, rr-advfix update, BlueMap, Warden shield pack
 
