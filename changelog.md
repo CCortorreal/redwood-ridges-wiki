@@ -3,6 +3,41 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
+## Restart 04:01 CDT 2026-09-24 — RedwoodBoard 1.9.4, rr-advfix update, BlueMap, Warden shield pack
+
+**RedwoodBoard 1.9.4** (242,456 B, calliope `b5b66ee`):
+
+- **Through-walls tour beacon.** Under the waypoint label sits a per-player `BlockDisplay` (a
+  gold block stood on its corner, spinning once every 4 s) with `setGlowing(true)` and a gold
+  glow-colour override. The vanilla glowing outline renders through terrain, which text can't.
+  Config `tour.beacon` (default true). Bedrock has no glowing outline and sees the plain block.
+
+**rr-advfix** (135 overrides, 103,369 B, sha256 `4f7c8af1…`, calliope `2525a31`):
+
+- *Death Pointer* ("Using Echo Shards…, craft a Recovery Compass") gains the crafted-stat
+  condition. The audit's make-claim detector missed the "Using X, craft Y" phrasing. GravesX's
+  respawn recovery compass is now listed as a plugin grant in the audit report.
+- The six recentred distance advancements (`kilometre_walk`, `ten_thousand_blocks`, `voyage`,
+  `spawn_camping`, `a_million_blocks_away`, `farlander`) now name `minecraft:overworld`.
+  Without it the shifted bounds matched in every world, and the EliteMobs hub sits inside them.
+- No revokes. Existing grants stay.
+
+**BlueMap** `core.conf`: `update-cooldown` 60 → 30 s, `full-update-interval` 1440 → 60 min.
+
+**Warden shield pack** (`RRWardenShield_resource_pack.zip`, merged by ResourcePackManager, first in
+`priorityOrder`): an 8×8 bitmap glyph for U+26E8 ⛨. Inert until the staff groups carry the mark.
+In the merged font it sits after vanilla's Unifont reference, which already has a ⛨, so clients
+currently draw Unifont's shield instead of ours. Either way it reads as a shield.
+
+## RedwoodBoard 1.9.3 — 2026-09-23, restart ~22:04 CDT (calliope main `7ff30ba`)
+
+- **Restack only what the game split.** The 5-second sweep is retired.
+  `PlayerInventorySlotChangeEvent` marks a slot when an untagged trim material lands in it, or
+  when the same material turns from untagged to tagged. Only those slots merge, so a split you
+  made yourself stays split. The merge waits while any container is open and runs when it closes.
+- **Waypoint legibility v2.** One non-see-through `TextDisplay`. The 1.9.2 see-through copy drew
+  its background over the normal copy's text and showed as a blank black slab.
+
 ## RedwoodBoard 1.9.2 — 2026-09-23, restart ~21:18 CDT (calliope main `14c8697`)
 
 RedwoodBoard 1.9.2, 240,927 B:

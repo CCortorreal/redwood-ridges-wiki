@@ -1,8 +1,21 @@
-# What's New — 23 September 2026
+# What's New — 24 September 2026
 
 > Everything here is live. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
 
-## Later that night (21:18 CDT)
+## Early Thursday (restart 04:01 CDT)
+
+- **Your own splits stay split.** Trim materials only merge back when the game split them by
+  itself. Split a stack on purpose and it stays that way.
+- **The tour marker works behind walls.** You read the white label in the open. When a wall is in
+  the way, a slowly spinning **gold diamond** glows where your next stop is.
+- **The web map keeps up.** New builds show up sooner, and the whole map refreshes every hour
+  instead of once a day.
+- **Advancements got more honest.** *Death Pointer* now needs you to actually craft a Recovery
+  Compass; the one your grave hands you doesn't count. *Kilometre Walk* and the other distance
+  advancements only count in the overworld, so visiting the Adventurer's Guild no longer pops
+  them. Anything you already earned stays earned.
+
+## Later that night (21:18 CDT, 23 September)
 
 - **Furnaces stack again.** Blast furnaces and smokers were stalling after one netherite scrap;
   output now piles up normally.
