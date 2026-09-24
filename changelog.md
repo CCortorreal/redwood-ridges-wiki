@@ -32,10 +32,11 @@ routing lines below are already in the live config and take effect at that boot 
 EssentialsX Discord message types. Each source is skipped quietly if its plugin is absent.
 
 - `rr-world` → `#campfire`: towns founded, residents joining, towns opening or closing (Towny);
-  non-natural EliteMobs boss kills and dungeon clears; AuraSkills levels every 5th level; auction
-  sales of 100+ marshmallows. At most 10 posts a minute across all kinds, plus a per-kind cooldown.
-- `rr-auction` → `#auction-house`: every listing, sale and expiry. AuctionHouse 1.5.5 fires no
-  events, so Lens polls its storage every 5 s and diffs.
+  non-natural EliteMobs boss kills and dungeon clears; AuraSkills levels every 5th level. At most 10 posts a minute across all kinds, plus a per-kind cooldown.
+- The auction watcher (AuctionHouse 1.5.5 fires no events, so Lens polls its storage every 5 s and
+  diffs) ships **off** (`auction-stream.enabled: false` in the live config). As built, its first
+  poll after every boot re-posted every stored listing. It returns with the `#auction-house` forum
+  (below), together with the 100+ marshmallow sale highlights in `#campfire`.
 - `plugins/RedwoodLens/world.json` (`rr-lens/world/v1`): towns (mayor, residents, open, public,
   board text, spawn, nation, ruined, recruiting) and nations. Rewritten 15 s after a Towny change.
   Union Rep builds `#the-world` from it.
@@ -51,7 +52,9 @@ EssentialsX Discord message types. Each source is skipped quietly if its plugin 
   rewritten at most every 5 minutes. `#server-status` is unchanged.
 - **`#the-world`** (new forum): one post per town and nation, tagged open / closed / recruiting /
   ruined. It fills once RedwoodLens 0.11.0 is live.
-- **`#auction-house`** (new): posted by the server only, fed by `rr-auction`.
+- **`#auction-house`** (new forum, recreated 14:16 CDT; the text channel was empty): one post per
+  auction item, tagged For sale / Sold / Expired, written by Union Rep from a RedwoodLens
+  `auctions.json`. Being built now; it rides a later restart. EssentialsDiscord `rr-auction` is `none`.
 
 ## Restart 04:01 CDT 2026-09-24 — RedwoodBoard 1.9.4, rr-advfix update, BlueMap, Warden shield pack
 
