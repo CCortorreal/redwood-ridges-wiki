@@ -2,6 +2,17 @@
 
 > Everything here is live. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
 
+## Later that night (21:18 CDT)
+
+- **Furnaces stack again.** Blast furnaces and smokers were stalling after one netherite scrap;
+  output now piles up normally.
+- **Autoreel is a real catch.** The rod reels in on its own, XP orbs drop, fish stack with what
+  you're holding, and AuraSkills fishing XP counts.
+- **Split trim stacks tidy themselves** within a few seconds while no chest is open.
+- **The tour marker is readable:** white on black, visible through walls.
+- **The archive chest.** Right-click the chest named "the archive" at the board to open the archive.
+- **Two sleepers skip the night**, however many people are online.
+
 ## The short version
 
 - **New players get a guided first walk.** Arrive at each of 8 camp landmarks and a gold waypoint

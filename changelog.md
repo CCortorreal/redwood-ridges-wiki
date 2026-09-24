@@ -3,6 +3,30 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
+## RedwoodBoard 1.9.2 — 2026-09-23, restart ~21:18 CDT (calliope main `14c8697`)
+
+RedwoodBoard 1.9.2, 240,927 B:
+
+- **Furnace stall fixed.** 1.9.1 tagged `FurnaceSmeltEvent` results, and vanilla's burn check
+  compares the new result's components against the output slot, so the second smelt no longer
+  matched and the furnace stopped. Furnace, blast-furnace and smoker output is no longer tagged.
+- **Autoreel owned by RedwoodBoard.** SuperEnchants' `auto_reel` action is removed from
+  `SuperEnchants/enchants/autoreel.yml` (the enchant, its lore and how you obtain it are unchanged).
+  RedwoodBoard reels in 1 tick after the bite with `FishHook#retrieve`, the vanilla catch path, so
+  `CAUGHT_FISH`, XP orbs, Mending, AuraSkills and tag-at-birth all fire. The 1.9.1 XP top-up is retired.
+- **Restack sweep** (`stacking.sweep-seconds`, 5). A timer merges split trim-material stacks for
+  players with only their own inventory open and an empty cursor. It skips players whose
+  trim-material contents haven't changed since the last pass.
+- **High-contrast waypoint.** Two `TextDisplay`s, one normal and one see-through, with pure white
+  text and an ARGB(220,0,0,0) background. Bedrock gets the see-through one only.
+- **Archive chest** (`archive-chest.*`). Right-clicking a chest or barrel named `the archive` inside
+  the board cuboid opens `ArchiveMenu`. Sneaking with a block in hand still places the block.
+- **Sleep quorum** (`sleep.quorum`, 2). Recomputes `players_sleeping_percentage` on join, quit and
+  world change as `floor(quorum × 100 ÷ non-spectators)`, clamped to 1–100. Overworld only.
+
+**Staged for the next restart:** QuickShop-Hikari `allow-stacks: true` (bundle shops through
+`/qs size`).
+
 ## RedwoodBoard 1.9.1 — 2026-09-23, restart window ~19:15 CDT (calliope main `8174e5d`)
 
 RedwoodBoard 1.9.1, sha256 `97c6ba29…`:

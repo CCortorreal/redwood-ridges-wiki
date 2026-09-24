@@ -22,6 +22,17 @@ Staff place your shop chest; you click it holding what you sell and type a price
 Anyone can buy from your chest while you're away. Only you can restock it or change the price.
 The camp takes no cut of stall sales. Your stall shows on BlueMap once it's open.
 
+### Selling by the Stack
+
+A shop's price is for one trade, and a trade is one item unless you change it.
+To sell a full stack for one price, look at your shop chest and type `/qs size 64`.
+Then set the price for the whole bundle: `/qs price 10` sells 64 items for 10 Marshmallows.
+Buyers now buy in whole bundles, so nobody can take 3 items for a sliver of a Marshmallow.
+Any bundle size works: `/qs size 16` sells in sixteens.
+
+- **Bundle Size:** `/qs size <amount>`
+- **Bundle Price:** `/qs price <price>`
+
 - [Camp Discord](https://discord.gg/TqPYyJcdXF)
 - [Open BlueMap](http://104.204.220.59:8100)
 
