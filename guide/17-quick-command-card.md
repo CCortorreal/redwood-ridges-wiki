@@ -6,9 +6,11 @@ Tap safe commands to run them right away. Commands needing names or amounts open
 
 `/bal` checks how many Marshmallows you have right now.
 `/pay` moves your own money to another player.
+`/receipts` lists your last money moves and what caused each one.
 
 - **Check Balance:** `/bal`
 - **Pay a Player:** `/pay`
+- **Your Receipts:** `/receipts`
 
 ### Town
 
@@ -44,14 +46,16 @@ BlueMap and Discord both open in your regular browser.
 
 ### Commands by Rank
 
-Every rank can use `/spawn`, `/bal`, `/pay`, `/contracts`, `/enchants`, `/skills`, `/ah` (at the Auctioneer), and voice chat.
+Every rank can use `/spawn`, `/home`, `/bal`, `/pay`, `/receipts`, `/contracts`, `/enchants`, `/skills`, `/ah` (at the Auctioneer), and voice chat.
 Seedlings may accept town invitations and use resident commands after joining.
 Scouts add `/t new`, and every higher civic rank inherits that permission.
 Ranger, Pathfinder, and Scout Master raise your contract capacity and rune odds; they don't make you server staff.
 Wardens are staff. Contract staff tools still require separate staff permission.
-`/tpa` and `/tpahere` are intentionally unavailable; use roads, town spawn, or `/spawn`.
+`/tpa` and `/tpahere` are intentionally unavailable; use roads, town spawn, `/home`, or `/spawn`.
+`/home` has a 30-minute cooldown and `/spawn` a 10-minute one.
 
 - **Return to Spawn:** `/spawn`
+- **Go Home:** `/home` (set it with `/sethome`)
 - **Open Contracts:** `/contracts`
 - **Completed Work:** `/contracts archive`
 

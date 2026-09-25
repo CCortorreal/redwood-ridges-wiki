@@ -1,6 +1,7 @@
 # Chapter 9 — Staying Alive
 
 When you die, your items wait in a grave instead of despawning.
+Every death also costs **1 Marshmallow**, taken automatically (it shows in `/receipts` as Towny).
 
 ### Your Grave
 

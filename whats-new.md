@@ -1,32 +1,60 @@
-# What's New — 24 September 2026
+# What's New — 25 September 2026
 
 > Everything here is live unless its heading says otherwise. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
 
-## STAGED — Founding Day, not live yet
+## Friday evening (restart 16:35 CDT, 25 September)
 
-Staged ahead of the Friday 9/25 deploy window. Staff check and finalize this section against the
-live server after the restart ships — read it as the plan for now, not a record of what shipped.
+- **`/receipts`: where did my Marshmallows go?** Type `/receipts` to see your last 10 money
+  moves, newest first, each with what caused it: a Board payout, a Towny charge, a shop sale, a
+  `/pay` from a friend, a staff adjustment. Only you can see your own. (`/receipts 20` shows more.)
+  It counts from this restart on.
+- **Mining advancements need mining.** *Stone Age*, *Seeing Red*, *G.I. Geode* and the other
+  "get this block" advancements now also need you to have mined one yourself, so picking the item
+  out of a chest no longer pops them. Anything you already earned stays earned.
+- **The Treeline will speak up.** Once the Temple's altar is in, chat gets a short reminder every
+  45 minutes of how far along its goal is and how much more pushes the border out.
 
-- **The board fills all at once.** Founding Day's whole 23-job pack goes up in one move at the 2pm
-  ceremony, instead of card by card. See the [Founding Day Mega Pack](founding-day-mega-pack.md)
+## Friday afternoon (restart 13:51 CDT, 25 September)
+
+- **`/home` has a 30-minute cooldown, `/spawn` a 10-minute one.** Plan your trips; roads are
+  your friend. Cooldowns carry over a restart.
+- **The board can take a whole pack of jobs at once.** Founding Day's 23-job pack goes up in one
+  move at the **2pm ceremony on Saturday**. See the [Founding Day Mega Pack](founding-day-mega-pack.md)
   page for the full list.
 - **New jobs get a sensible default deadline.** The Expires box now suggests a date instead of
   starting blank.
-- **A plaque for finished builds.** Right-click one on any finished big build to see its name, its
-  builders, and whose idea it was.
-- **A mailbox at the Post Office**, once it's built. Right-click to read your mail. With a mail
-  chest there, other players can send you items even while you're offline.
-- **The Temple of Mallow's altar**, once the Temple is built. Offer any amount of Marshmallows
-  toward its goal — offerings don't come back and don't count toward rank, and when the goal is
-  reached, the treeline moves.
-- **`/receipts` — where did my Marshmallows go?** Type `/receipts` to see your last 10 money
-  moves, newest first, each with what caused it: a Board payout, a Towny charge, a shop sale, a
-  `/pay` from a friend, a staff adjustment. Only you can see your own. (`/receipts 20` shows more.)
-  It starts counting from the Founding Day restart.
-- **The Treeline speaks up.** While the Temple's goal is open, chat gets a short reminder every 45
-  minutes of how far along it is and how much more pushes the border out.
+- **Places switch on as they're built.** Each of these works once its build is finished and staff
+  arm it (none are armed yet):
+  - **A plaque** on finished big builds: right-click to see its name, its builders, and whose idea it was.
+  - **A mailbox at the Post Office**: right-click to read your mail. With a mail chest there,
+    other players can send you items even while you're offline.
+  - **The Temple of Mallow's altar**: offer any amount of Marshmallows toward its goal. Offerings
+    don't come back and don't count toward rank, and when the goal is reached, the treeline moves.
 
-## Coming at the next restart — not live yet
+## Friday morning (restart 08:29 CDT, 25 September)
+
+- **Sales are announced in-game.** When something sells at the auction house, chat shows
+  `[Auction] <seller> sold <item> to <buyer> for <price>`.
+- **Auction listings show their full description** (runes, durability) in the auction house itself.
+- **`#campfire` skips training kills.** The Training Dummy and the Adventurer Instructor don't post
+  kill lines anymore, and a kill reads `⚔️ Name defeated Mob · Lv N`.
+
+## Thursday (24 September)
+
+- **Report a problem privately: `/rreport`** (restart 10:25). A short form goes straight to staff.
+  Leave the name blank to send it as Anonymous.
+- **Seedlings can `/home` and `/sethome`** (10:14).
+- **`/grave` is staff-only** (11:49). To get back to your grave, walk there, or pray at Death's statue.
+- **Explosions in the wild no longer heal themselves** (12:53). Creepers still don't break blocks.
+- **Hover any rune, including the ruin runes, to read what it does** (restart 16:04).
+- **`#auction-house` posts** show plain seller names, the item's description, durability, and when
+  it was listed and when it expires (16:41).
+- **Soulbound gear can't go on the auction house** (restart 17:10). EliteMobs gear bound to you
+  only works for you, so `/ah sell` refuses it. Sell or scrap it at the Adventurer's Guild instead.
+- **Rank colours** (18:59): Seedling grey, Scout green, Ranger dark green, Pathfinder orange,
+  Scout Master gold.
+
+The rest of Thursday's changes went live at the 16:04 CDT restart:
 
 - **See who's on a job without opening it.** Look at a book on the board: its name shows whether
   it's open, who holds it (`Tylerbro1 · 1/2`), how many more a crew job still needs, or that
@@ -45,7 +73,7 @@ live server after the restart ships — read it as the plan for now, not a recor
 - **`#contracts` matches the board again.** Missing jobs get their threads, finished ones close,
   and no more doubled threads.
 - **`#campfire`'s header shows who's on right now.**
-- **Two new forums:** `#the-world` and `#auction-house` fill in after the next restart.
+- **Two new forums:** `#the-world` and `#auction-house` (filled in since the 16:04 restart).
   `#auction-house` gets one post per item for sale, marked Sold or Expired as it goes.
 
 ## Early Thursday (restart 04:01 CDT)

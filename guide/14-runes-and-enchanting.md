@@ -51,8 +51,8 @@ the same ruin's loot chests can roll them too.
 | Wither Coated | Sword hits apply Wither; short and strong at high levels. | Nether keeps, Sealing Halls |
 
 These haven't been sorted into the Common/Uncommon/Rare/Legendary tiers above yet, so
-`/enchants` doesn't list them alongside the table runes, and hovering the item only shows its
-name, not what it does. Check this table until that catches up.
+`/enchants` doesn't list them alongside the table runes. Hover a runed item to read what it
+does, or check this table.
 
 
 ---

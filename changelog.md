@@ -3,7 +3,14 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
-## STAGED — RedwoodLedger 0.2.0, RedwoodLens 0.12.1 (uploaded 9/25 16:35 CDT, active after the next restart)
+## Restart 16:35 CDT 2026-09-25 — RedwoodLedger 0.2.0, RedwoodLens 0.12.1, rr-advfix mine claims (calliope `desk/ride-0925` `91eef20` / `70c0ccd`; advfix main `f77489a`)
+
+Boot 21:35:50Z. Ledger enable checkpoint: 23 accounts; tape verifies clean.
+
+**rr-advfix (mine claims):** 37 "obtain this block" advancements (*Stone Age*, *Seeing Red*,
+*G.I. Geode* and others) also require the `minecraft:mined` stat for that block, so taking the item
+from a chest no longer grants them. Existing grants are untouched (no revokes). 3,885 advancements
+load with no parse errors.
 
 **RedwoodLedger 0.2.0** (new plugin, first run at this restart): an observe-only economy tape.
 Every Essentials balance change — player accounts and town banks — is written to a hash-chained
@@ -19,15 +26,18 @@ the tape shows up as drift. It never changes a balance.
 **RedwoodLens 0.12.1** (builds on 0.12.0):
 
 - **Treeline reminder.** Every `shrine.announce-minutes` (default 45, 0 turns it off) chat hears
-  the Treeline's progress and what's left, only while someone is online, the altar is placed, and
-  the goal isn't met. Idea credit: CommunityGoals (ByteBurrow, Papaphrog), whose
+  the Treeline's progress and what's left, only while someone is online, an altar place is armed,
+  and the goal isn't met. No altar is armed yet, so it is silent until the Temple is built. Idea credit: CommunityGoals (ByteBurrow, Papaphrog), whose
   `announcement-interval` rebroadcasts an open goal.
 
-## STAGED — RedwoodBoard 1.9.8, RedwoodLens 0.12.0 (Founding Day, not live yet)
+## Restart ~13:51 CDT 2026-09-25 — RedwoodBoard 1.9.8, RedwoodLens 0.12.0, Essentials cooldowns (calliope main `d9fe6dc`)
 
-**This entry is staged ahead of the Friday 9/25 deploy window. The desk finalizes it — version
-numbers, exact behavior, and timestamps — after the restart actually ships. Treat everything below
-as the plan, to be checked against the live server, not as a record of what shipped.**
+Boot 18:51Z: both enabled, tour ARMED (8 stops), stacking self-test passed. The Founding Day pack
+itself is data (`plugins/RedwoodBoard/packs/founding-day.yml`), uploaded separately and loaded live
+at the Saturday 14:10 ceremony. Places ship dormant: none are armed until each build is finished.
+
+**Essentials** (`ess reload` 18:42Z, no restart needed): `command-cooldowns` `/home` 1800 s,
+`/spawn` 600 s, `command-cooldown-persistence: true`.
 
 **RedwoodBoard 1.9.8 "Megapack"** (builds on 1.9.7):
 
@@ -56,10 +66,38 @@ as the plan, to be checked against the live server, not as a record of what ship
   Offerings don't come back and don't count toward rank — they're a collective gift, and when the
   goal is met, the treeline moves.
 
-## Staged for the next restart — RedwoodBoard 1.9.7, RedwoodLens 0.11.1 (not live yet)
+## Restart 08:29 CDT 2026-09-25 — RedwoodLens 0.11.9 (carries 0.11.6-0.11.8)
 
-Both jars are in `/plugins` since 14:06 CDT 2026-09-24 and load at the next boot. The Discord
-routing lines below are already in the live config and take effect at that boot too.
+- **0.11.9:** in-game `[Auction] <seller> sold <item> to <buyer> for <price>` in AuctionHouse's
+  colours. Live config `auction-stream.highlight-min-price: -1` turns off Lens's own 100+ sale line
+  in `#campfire`, since Union Rep now posts sales there.
+- **0.11.8:** extended descriptions carried into shops and menus: live auction listings are enriched
+  at the source (so AuctionHouse's 1 s redraw keeps them), plugin menus on open/click; the 2 s
+  inventory sweep skips menus (it had made auction lore flicker).
+- **0.11.7:** `#campfire` kill lines ignore the Training Dummy, the Adventurer Instructor and the
+  guild world; format `⚔️ **X** defeated **Name** · Lv N`.
+- **0.11.6:** soulbound refusal message points to the Adventurer's Guild (sell or scrap); the
+  "unbind scroll" claim was removed (no unbind scroll on this server).
+
+## Restart 17:10 CDT 2026-09-24 — RedwoodLens 0.11.5
+
+- **Soulbound listing guard:** `/ah sell` and `/ah bid` refuse items carrying `elitemobs:soulbind`
+  (the owner-only EliteMobs binding). The three soulbound listings already up were expired by staff
+  and their sellers mailed.
+
+## Restart 16:41 CDT 2026-09-24 — RedwoodLens 0.11.4 (carries 0.11.3), Armor Stand Poses
+
+- **0.11.3:** plain seller/buyer names (no colour codes) at the source; per-listing lore in
+  `auctions.json`.
+- **0.11.4:** `listed_at` / `expires_at`, auction type, bids, top bidder and durability in
+  `auctions.json` (read from AuctionHouse by reflection). Union Rep's `#auction-house` posts show them.
+- Armor Stand Poses datapack enabled (fixed `pack.mcmeta`).
+
+## Restart 16:04 CDT 2026-09-24 — RedwoodBoard 1.9.7, RedwoodLens 0.11.2
+
+Uploaded at 14:06 as 1.9.7 / 0.11.1. The 16:00 boot failed to load Lens (an unquoted `plugin.yml`
+description); 0.11.2 fixed it and adds the unified tooltips (SuperEnchants 98, vanilla 43,
+datapack runes 18) and booted at 16:04. The Discord routing lines below were already in the live config.
 
 **RedwoodBoard 1.9.7** (285,407 B, calliope main `dec202b` + `007c0c1`, includes 1.9.6):
 
@@ -110,6 +148,17 @@ EssentialsX Discord message types. Each source is skipped quietly if its plugin 
   auction item, tagged For sale / Sold / Expired, written by Union Rep from a RedwoodLens
   `auctions.json` (tabletop `b8d0c16`). Up to 8 new posts per pass; items already sold or expired
   before the first pass are skipped. It fills once RedwoodLens 0.11.1 is live. EssentialsDiscord `rr-auction` is `none`.
+
+## Restart 10:25 CDT 2026-09-24 — RedwoodBoard 1.9.5 (`/rreport`), CoreProtect CE 24.1
+
+- **`/rreport`:** a private report form (Paper dialog). Name optional (blank sends as Anonymous),
+  where-and-what, routed through EssentialsDiscord `rr-report` to the staff channel. No reply path;
+  Wardens reach out directly.
+- **CoreProtect CE 24.1** runs alongside Prism (SQLite; `explosions: true`, default radius 10, max
+  100) because Prism logs no explosion action.
+- Same morning, no restart: Seedlings gained `essentials.home` + `essentials.sethome` (10:14);
+  `/grave` / `/graves` teleport and GUI made staff-only (11:49); Towny wilderness explosion revert
+  turned off in `world` (12:53); rank colours (18:59).
 
 ## Restart 04:01 CDT 2026-09-24 — RedwoodBoard 1.9.4, rr-advfix update, BlueMap, Warden shield pack
 
@@ -167,8 +216,8 @@ RedwoodBoard 1.9.2, 240,927 B:
 - **Sleep quorum** (`sleep.quorum`, 2). Recomputes `players_sleeping_percentage` on join, quit and
   world change as `floor(quorum × 100 ÷ non-spectators)`, clamped to 1–100. Overworld only.
 
-**Staged for the next restart:** QuickShop-Hikari `allow-stacks: true` (bundle shops through
-`/qs size`).
+**Live since the 22:04 CDT restart (with 1.9.3):** QuickShop-Hikari `allow-stacks: true` (bundle
+shops through `/qs size`).
 
 ## RedwoodBoard 1.9.1 — 2026-09-23, restart window ~19:15 CDT (calliope main `8174e5d`)
 
