@@ -3,6 +3,23 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
+## Staged for the next restart — RedwoodAdvancements 0.2.0, RedwoodLens 0.12.2, rr-guide (uploaded 17:20 CDT 2026-09-25, not live yet; calliope `desk/campfire-0925` `e3349b1`)
+
+**RedwoodAdvancements 0.2.0 (the #campfire flood):** the relay posted every chat-announcing
+advancement with no limit (one player: 31 lines in 71 minutes). Now, per player: challenges always
+post; the first task/goal in a 15-minute window posts; the rest fold into one digest line when the
+window closes or the player quits; a global 6-per-minute cap smooths bursts (refused posts wait,
+never drop). BlazeandCave's "/trigger bac_statistics" hint is stripped from descriptions.
+Config: `throttle.window-minutes`, `instant-per-window`, `global-cap-per-minute`, `max-names`,
+`ignore-keys`, `format.digest`. DigestTest: 38 checks; the real 31-line hour replays as 8 posts.
+
+**RedwoodLens 0.12.2:** EliteMobs kills reach #campfire only for custom bosses whose EliteMobs
+config broadcasts their death (`announcementPriority` >= `world-stream.elitemobs.min-announcement-priority`,
+default 1). A spawner "Lvl 3 Elite Slime" had got through the old natural-entity check.
+Live config: the two `auction-stream:` blocks are merged (the boot warned "duplicate keys").
+
+**rr-guide:** ch9/ch18 death fee, ch17 /receipts + /home + cooldowns (field-guide.md, calliope `346f203`).
+
 ## Restart 16:35 CDT 2026-09-25 — RedwoodLedger 0.2.0, RedwoodLens 0.12.1, rr-advfix mine claims (calliope `desk/ride-0925` `91eef20` / `70c0ccd`; advfix main `f77489a`)
 
 Boot 21:35:50Z. Ledger enable checkpoint: 23 accounts; tape verifies clean.

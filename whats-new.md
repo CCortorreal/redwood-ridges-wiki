@@ -2,6 +2,17 @@
 
 > Everything here is live unless its heading says otherwise. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
 
+## Coming at the next restart (staged 25 September, not live yet)
+
+- **A calmer #campfire.** Advancement posts in Discord now bundle up. Your first advancement in
+  a 15-minute stretch still gets its own line; the rest arrive as one line when the stretch ends
+  (or when you log off): *"unlocked 7 advancements: Gold Rush, Barrel Rider, …"*. Challenges
+  (the rare purple "Challenge Complete!" ones) always get their own line. Nothing is skipped.
+- **Only real boss kills in #campfire.** A kill is announced only when it's a named boss that
+  the server announces anyway. Ordinary elites, dungeon minions and spawner elites stay quiet.
+- **The in-game guide catches up.** The Field Guide now lists the 1-Marshmallow death fee,
+  `/receipts`, and `/home` with its 30-minute cooldown.
+
 ## Friday evening (restart 16:35 CDT, 25 September)
 
 - **`/receipts`: where did my Marshmallows go?** Type `/receipts` to see your last 10 money
