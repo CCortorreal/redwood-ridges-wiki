@@ -2,6 +2,24 @@
 
 > Everything here is live unless its heading says otherwise. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
 
+## STAGED — Founding Day, not live yet
+
+Staged ahead of the Friday 9/25 deploy window. Staff check and finalize this section against the
+live server after the restart ships — read it as the plan for now, not a record of what shipped.
+
+- **The board fills all at once.** Founding Day's whole 23-job pack goes up in one move at the 2pm
+  ceremony, instead of card by card. See the [Founding Day Mega Pack](founding-day-mega-pack.md)
+  page for the full list.
+- **New jobs get a sensible default deadline.** The Expires box now suggests a date instead of
+  starting blank.
+- **A plaque for finished builds.** Right-click one on any finished big build to see its name, its
+  builders, and whose idea it was.
+- **A mailbox at the Post Office**, once it's built. Right-click to read your mail, and other
+  players can send you items even while you're offline.
+- **The Temple of Mallow's altar**, once the Temple is built. Offer any amount of Marshmallows
+  toward its goal — offerings don't come back and don't count toward rank, and when the goal is
+  reached, the treeline moves.
+
 ## Coming at the next restart — not live yet
 
 - **See who's on a job without opening it.** Look at a book on the board: its name shows whether

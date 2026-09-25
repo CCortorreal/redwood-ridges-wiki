@@ -3,6 +3,37 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
+## STAGED — RedwoodBoard 1.9.8, RedwoodLens 0.12.0 (Founding Day, not live yet)
+
+**This entry is staged ahead of the Friday 9/25 deploy window. The desk finalizes it — version
+numbers, exact behavior, and timestamps — after the restart actually ships. Treat everything below
+as the plan, to be checked against the live server, not as a record of what shipped.**
+
+**RedwoodBoard 1.9.8 "Megapack"** (builds on 1.9.7):
+
+- **The pack loader.** Staff can load a whole batch of jobs onto the board in one command, from a
+  file instead of typing each one by hand. Founding Day's 23-job pack is the first to use it.
+- **Default expiry.** `/makecontract`'s Expires box now pre-fills a sensible date based on the
+  job's size, instead of starting blank. Staff can still change it.
+- **A quiet load, then one announcement.** Loading a whole pack doesn't spam chat or Discord once
+  per job — it posts a single summary line once the load finishes.
+- **Mega jobs stand out.** The biggest jobs on the wall get a distinct look on hover.
+- **Idea credit.** A pack job's book can name whose idea it was, shown as the last line of the
+  book.
+
+**RedwoodLens 0.12.0 "Places"** (new):
+
+- **Places, dormant until built.** A new system lets staff mark a finished build as a working
+  place — a plaque, a mailbox, or the Temple of Mallow's altar — once it's actually built. Nothing
+  works until staff switch it on; there's no such thing as an early or temporary version.
+- **Plaque.** Right-click one on any finished big build to see its name, its builders, and whose
+  idea it was.
+- **Mailbox.** Right-click to read any mail waiting for you. Other players can send items to your
+  mailbox without you needing to be online.
+- **The Temple of Mallow's altar.** Right-click to offer Marshmallows toward the shrine's goal.
+  Offerings don't come back and don't count toward rank — they're a collective gift, and when the
+  goal is met, the treeline moves.
+
 ## Staged for the next restart — RedwoodBoard 1.9.7, RedwoodLens 0.11.1 (not live yet)
 
 Both jars are in `/plugins` since 14:06 CDT 2026-09-24 and load at the next boot. The Discord

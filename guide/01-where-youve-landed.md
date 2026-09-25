@@ -30,6 +30,23 @@ If a name feels too formal, shorten it in chat.
 **The board** means the paid job list at the ranger station.
 **The treeline** means the current edge of the open map.
 
+### New Landmarks (coming with the Founding Day Mega Pack)
+
+These aren't built yet — they're jobs on the board, and each one starts working the moment a
+crew finishes it and staff switch it on. Written here so you know what to expect when you see
+them.
+
+- **A plaque.** Any finished big build can carry one. Right-click it to see the build's name, who
+  built it, and whose idea it was.
+- **The Post Office.** Once it's built, it gives you a mailbox. Right-click your mailbox to read
+  any mail waiting for you, and other players can send you items straight to it — you don't need
+  to be online to receive one.
+- **The Temple of Mallow.** A shrine somewhere near spawn, once it's built. Walk up and offer any
+  amount of your Marshmallows toward its goal. Offerings don't come back, and they don't count
+  toward your rank — they're a gift to the camp, not a payout. When enough has been given, the
+  treeline moves.
+
+- [See the Founding Day Mega Pack](../founding-day-mega-pack.md)
 
 ---
 [← Field Guide index](../README.md#the-scouts-field-guide)
