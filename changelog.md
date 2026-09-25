@@ -28,8 +28,10 @@ as the plan, to be checked against the live server, not as a record of what ship
   works until staff switch it on; there's no such thing as an early or temporary version.
 - **Plaque.** Right-click one on any finished big build to see its name, its builders, and whose
   idea it was.
-- **Mailbox.** Right-click to read any mail waiting for you. Other players can send items to your
-  mailbox without you needing to be online.
+- **Mailbox.** Right-click to read any mail waiting for you. Parcels: from inside the post office, a player can
+  send the stack in their hand to another player's registered mail chest (all-or-nothing, logged;
+  only the owner and staff can open a mail chest). Staff: `/rrlens place new`, `place set`,
+  `place mailchest <player>`.
 - **The Temple of Mallow's altar.** Right-click to offer Marshmallows toward the shrine's goal.
   Offerings don't come back and don't count toward rank — they're a collective gift, and when the
   goal is met, the treeline moves.

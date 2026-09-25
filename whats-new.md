@@ -14,8 +14,8 @@ live server after the restart ships — read it as the plan for now, not a recor
   starting blank.
 - **A plaque for finished builds.** Right-click one on any finished big build to see its name, its
   builders, and whose idea it was.
-- **A mailbox at the Post Office**, once it's built. Right-click to read your mail, and other
-  players can send you items even while you're offline.
+- **A mailbox at the Post Office**, once it's built. Right-click to read your mail. With a mail
+  chest there, other players can send you items even while you're offline.
 - **The Temple of Mallow's altar**, once the Temple is built. Offer any amount of Marshmallows
   toward its goal — offerings don't come back and don't count toward rank, and when the goal is
   reached, the treeline moves.

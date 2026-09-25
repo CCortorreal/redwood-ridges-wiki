@@ -39,9 +39,10 @@ them.
 - **A plaque.** Any finished big build can carry one. Right-click it to see the build's name, who
   built it, and whose idea it was.
 - **The Post Office.** Once it's built, it gives you a mailbox. Right-click your mailbox to read
-  any mail waiting for you, and other players can send you items straight to it — you don't need
-  to be online to receive one.
-- **The Temple of Mallow.** A shrine somewhere near spawn, once it's built. Walk up and offer any
+  any mail waiting for you. You can also get your own mail chest there (ask staff to set it up):
+  anyone standing in the post office can send you items straight into it, and you don't need to
+  be online to receive them.
+- **The Temple of Mallow.** A shrine on the tallest peak near spawn, once it's built. Walk up and offer any
   amount of your Marshmallows toward its goal. Offerings don't come back, and they don't count
   toward your rank — they're a gift to the camp, not a payout. When enough has been given, the
   treeline moves.
