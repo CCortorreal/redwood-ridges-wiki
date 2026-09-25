@@ -19,6 +19,12 @@ live server after the restart ships — read it as the plan for now, not a recor
 - **The Temple of Mallow's altar**, once the Temple is built. Offer any amount of Marshmallows
   toward its goal — offerings don't come back and don't count toward rank, and when the goal is
   reached, the treeline moves.
+- **`/receipts` — where did my Marshmallows go?** Type `/receipts` to see your last 10 money
+  moves, newest first, each with what caused it: a Board payout, a Towny charge, a shop sale, a
+  `/pay` from a friend, a staff adjustment. Only you can see your own. (`/receipts 20` shows more.)
+  It starts counting from the Founding Day restart.
+- **The Treeline speaks up.** While the Temple's goal is open, chat gets a short reminder every 45
+  minutes of how far along it is and how much more pushes the border out.
 
 ## Coming at the next restart — not live yet
 

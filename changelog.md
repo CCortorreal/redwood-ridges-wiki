@@ -3,6 +3,26 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
+## STAGED — RedwoodLedger 0.2.0, RedwoodLens 0.12.1 (uploaded 9/25 16:35 CDT, active after the next restart)
+
+**RedwoodLedger 0.2.0** (new plugin, first run at this restart): an observe-only economy tape.
+Every Essentials balance change — player accounts and town banks — is written to a hash-chained
+log with the plugin that caused it, plus hourly full-balance checkpoints so a change made outside
+the tape shows up as drift. It never changes a balance.
+
+- **`/receipts`** (also `/ledger me`): a player's own last money moves in plain words (Board,
+  Towny, Shop, Auction House, `/pay from <name>`, Staff adjustment), seeded from the tape at
+  startup. Everyone has it (`rr.ledger.me`, default true); nobody can see another player's.
+  Idea credit: GL-EcoAudit (7str1kes), whose `/transactions` shows a player their own history.
+- Staff: `/ledger status`, `/ledger checkpoint`, `/ledger player <name>` (`rr.ledger.admin`, op).
+
+**RedwoodLens 0.12.1** (builds on 0.12.0):
+
+- **Treeline reminder.** Every `shrine.announce-minutes` (default 45, 0 turns it off) chat hears
+  the Treeline's progress and what's left, only while someone is online, the altar is placed, and
+  the goal isn't met. Idea credit: CommunityGoals (ByteBurrow, Papaphrog), whose
+  `announcement-interval` rebroadcasts an open goal.
+
 ## STAGED — RedwoodBoard 1.9.8, RedwoodLens 0.12.0 (Founding Day, not live yet)
 
 **This entry is staged ahead of the Friday 9/25 deploy window. The desk finalizes it — version
