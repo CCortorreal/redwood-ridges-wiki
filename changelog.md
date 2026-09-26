@@ -3,7 +3,36 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
-## Staged for the 04:00 CDT 2026-09-26 restart — RedwoodAdvancements 0.2.0, RedwoodLens 0.12.3, rr-guide (not live yet; cooldowns below already live; calliope `22b8412` merge + `e16777b`)
+## Restart 09:07 CDT 2026-09-26 — RedwoodBoard 1.9.9 (calliope `e234cf1`)
+
+Boot 14:07:17Z (Done 44.7 s); RedwoodBoard 1.9.9 enabled, tour armed (8 stops), stacking self-test
+passed, no enable errors.
+
+- **Ready site:** `/contract ready` stores the holder's block position on the stamp
+  (`Stamp.Holder.readyWorld/readyX/readyY/readyZ`, Gson-additive, older stamps read unchanged). The
+  staff ready line carries a clickable `[Go there]`; the card shows "<name> marked ready at x, y, z"
+  to staff and that holder, plus a staff "Go to <name>'s site" button.
+- **`/contract goto <id> <player|uuid>`** (staff, in-game): teleport to a ready holder's site.
+- **`/contracts view <id> [slot]`:** staff land on the first ready, unpaid book of a multi-book job;
+  the card lists the job's other claimed books as slot buttons. Players keep their own Mark ready /
+  Give up from a remote card; Claim stays book-only (the door lives on the physical book).
+- **Auto-retire:** on the board scan, a fully paid book is cleared `auto-retire-after-seconds`
+  (default 120) after its last payment, behind the same `ArchiveView.retireable` gate as the manual
+  Retire (every payment a durable archive receipt, a template kept for repost). `auto-retire-paid:
+  false` turns it off.
+- Tests: ReadySiteTest (16 checks). Local smoke A/B against 1.9.8: identical pass/fail sets.
+
+## Config 07:47 CDT 2026-09-26 — RedwoodBoard milestone text (restart)
+
+The live `plugins/RedwoodBoard/config.yml` predated the 1.9.0 `milestones:` block, and
+`getString(key, "")` ignores the jar defaults, so every milestone line (claim title, Scout
+celebration, movement lines, staff ready ping) rendered blank. The jar's `milestones:` block was
+merged into the live file (no other key changed) and read back after the restart.
+
+## Restart 07:14 CDT 2026-09-26 — RedwoodAdvancements 0.2.0, RedwoodLens 0.12.3, rr-guide (staged Friday for 04:00; the 04:00 window was missed, restarted 07:14 with 0 online; calliope `22b8412` merge + `e16777b`)
+
+Boot log read at the restart: Advancements 0.2.0 with the throttle line, Lens 0.12.3 with Veinminer/Excavator XP
+orbs armed, no duplicate-key warnings, rr-guide enabled.
 
 **RedwoodAdvancements 0.2.0 (the #campfire flood):** the relay posted every chat-announcing
 advancement with no limit (one player: 31 lines in 71 minutes). Now, per player: challenges always
@@ -72,7 +101,7 @@ at the Saturday 14:10 ceremony. Places ship dormant: none are armed until each b
 **RedwoodBoard 1.9.8 "Megapack"** (builds on 1.9.7):
 
 - **The pack loader.** Staff can load a whole batch of jobs onto the board in one command, from a
-  file instead of typing each one by hand. Founding Day's 23-job pack is the first to use it.
+  file instead of typing each one by hand. Founding Day's pack (22 new jobs; its 23rd card, Starter Cabins, was already on the board) is the first to use it.
 - **Default expiry.** `/makecontract`'s Expires box now pre-fills a sensible date based on the
   job's size, instead of starting blank. Staff can still change it.
 - **A quiet load, then one announcement.** Loading a whole pack doesn't spam chat or Discord once

@@ -19,6 +19,7 @@ These are the launch costs, but a newer public amendment replaces any older pric
 | First bonus claim | 30 | `/town buy bonus`; later purchases rise 1.2× |
 | Outpost | 250 | detached claim |
 | Town upkeep | 5/day | from the town bank |
+| Reclaim a ruined town | 200 | `/t reclaim`, residents only, after 4 hours |
 | Found a nation | not open | later-season gate |
 
 - **Fund Town Bank:** `/t deposit`

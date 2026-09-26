@@ -3,9 +3,9 @@
 A small civilization growing out of a ranger camp in the pines. Minecraft (Java + Bedrock), Paper 26.2.
 
 - **Server:** `104.204.220.59:25565` · **Map:** http://104.204.220.59:8100 · **Discord:** https://discord.gg/TqPYyJcdXF
-- **[What's New — 25 September 2026](whats-new.md)** — /receipts, /home, the Founding Day pack, the market, Death's statue, ranks, runes.
+- **[What's New — 26 September 2026](whats-new.md)** — manage your jobs from anywhere, mark ready where you build, paid books leave the wall; /receipts, /home, the market, Death's statue, ranks, runes.
 - **[Changelog](changelog.md)** — version numbers and mechanism, for anyone who wants the technical detail.
-- **[Founding Day Mega Pack](founding-day-mega-pack.md)** — 23 jobs going up at the Founding Day ceremony (Saturday 26 September, 2pm).
+- **[Founding Day Mega Pack](founding-day-mega-pack.md)** — 22 new jobs going up at the Founding Day ceremony (Saturday 26 September, 2pm).
 
 ## The Scout's Field Guide
 

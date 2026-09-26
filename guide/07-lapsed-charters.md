@@ -18,9 +18,12 @@ Catching a bank shortfall early makes recovery cheaper.
 A ruined town gets a **seven-day grace period** before anything is lost permanently.
 That covers a weekend when everyone is away.
 Use the week to regroup and recover the charter.
-After it ends, other players may claim the land.
-Ask the Head Ranger for current recovery terms.
-Don't rely on an old recovery price copied from chat.
+After it ends, the town is gone and other players may claim the land.
+Once a town has been a ruin for **4 hours**, any of its own residents can run `/t reclaim` and pay **200 Marshmallows** to bring it back.
+Only the town's residents can reclaim it; outsiders can't take it over while it's a ruin.
+If the price here and the server ever disagree, the server wins; ask the Head Ranger.
+
+- **Reclaim a Ruin:** `/t reclaim`
 
 
 ---

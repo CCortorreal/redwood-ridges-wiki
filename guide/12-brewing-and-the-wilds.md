@@ -56,13 +56,22 @@ Harder drinks punish sloppy timing. Start with cocoa, beer, or mead.
 
 ### Structures First
 
-Structory and Dungeons and Taverns add the ruins you'll find.
+Structory (and Structory Towers), Dungeons and Taverns, and BetterStructures add the ruins you'll find.
+Incendium rebuilds the Nether's biomes and fortresses; Nullscape reshapes the End.
 Regular vanilla chest loot is also worth checking.
 Each new ring opens more structures and biomes.
 Mark your route before you explore unfamiliar ground.
 Bring discoveries back as trophies or trade goods.
 
 - [Open BlueMap](http://104.204.220.59:8100)
+
+### Small Things That Work Here
+
+- **Name tags** and **smithing templates** can be crafted.
+- Mobs sometimes drop **their heads**.
+- **Endermen don't pick up blocks**, so your walls stay put.
+- Armor trims come in **extra materials**, and some trims carry small effects.
+- Armor stands have extra **poses**.
 
 ### The Alpha Loot Stack
 

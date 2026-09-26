@@ -47,7 +47,7 @@ markers. The purse pays once, when the whole job is finished and checked, not pe
 | Map Wall, Ranger Station 3F | 10 a map | up to 20 | DeadEyeMeg |
 | Top Sneaky (a cool spot) | 20 | up to 5 | EldenJohnson |
 | Camp Cleanup (recycle) | 15 a haul | up to 4 | Tylerbro1 |
-| Starter Cabins (the card already on the board) | 30 | up to 2 | EldenJohnson |
+| Starter Cabins (already on the board, not part of the 22; all four cabins are claimed) | 30 | 4 | EldenJohnson |
 
 ## What these places will do once they're finished
 

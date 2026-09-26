@@ -13,18 +13,20 @@ Ask in chat before building if anything seems unclear.
 
 ### Claim the Work
 
-Click its book or frame and press **Claim this job**.
-`/contracts` shows every open job and the ones you hold.
+Walk to the board, click its book or frame, and press **Claim this job**. Claiming only happens at the board.
+`/contracts` shows every open job and the ones you hold, from anywhere. Click one of yours to open its card.
 Your rank sets how many unpaid jobs you can hold at once: Seedling 1, Scout 2, Ranger 3, Pathfinder 5, Scout Master 8.
-Changed your mind? Open the book again and press **Give up** so someone else can take it.
+Changed your mind? Open the card (at the board or from `/contracts`) and press **Give up** so someone else can take it.
 Voice helps crews coordinate, but you never need it.
 All work happens in survival mode without creative shortcuts.
 Check with the Head Ranger before an expensive final step.
 
 ### Verification and Payday
 
-When you finish, reopen the card and press **Mark ready**.
+When you finish, stand inside your build, open the card from `/contracts`, and press **Mark ready**.
+Marking ready remembers where you're standing, so the Head Ranger can come straight to it.
 The Head Ranger checks the work, then presses **Complete & pay**.
+About two minutes after a job is fully paid, its book comes off the wall; `/contracts archive` keeps the record.
 Your first official payout makes you a **Scout**, the next rank after Seedling.
 Claiming you're done or sitting AFK won't pay.
 Money sent through `/pay` won't change your rank; only official payouts do.

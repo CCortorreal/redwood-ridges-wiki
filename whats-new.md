@@ -1,8 +1,29 @@
-# What's New — 25 September 2026
+# What's New — 26 September 2026
 
 > Everything here is live unless its heading says otherwise. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
 
-## Coming at the next restart (staged 25 September, not live yet)
+## Saturday morning (restart 09:07 CDT, 26 September)
+
+- **Your jobs, from anywhere.** Claiming still happens at the board: click the book, press
+  **Claim this job**. Everything after that works from wherever you are. Type `/contracts`,
+  click your job, and **Mark ready** or **Give up** right there.
+- **Stand in your build when you mark ready.** Marking ready now remembers where you're standing
+  and hands staff a **[Go there]** link, so the Head Ranger comes straight to your build instead of
+  hunting for it. Your card shows the spot too.
+- **Paid books leave the wall.** About two minutes after a job is fully paid, its book comes off
+  the board by itself, so the wall only shows work that's still open. Nothing is lost:
+  `/contracts archive` keeps every finished job and who built it.
+- **Staff can review and pay from anywhere**, including each cabin of a job with several books.
+
+## Saturday early (07:47 CDT, 26 September)
+
+- **Board moments show up in chat.** Claiming a job, making Scout on your first payout, a crew
+  filling up, and a job getting paid now all put their line in chat, as they were always meant
+  to. Before this, those lines came through blank.
+
+## Saturday (restart 07:14 CDT, 26 September)
+
+Staged on Friday, live at this restart:
 
 - **A calmer #campfire.** Advancement posts in Discord now bundle up. Your first advancement in
   a 15-minute stretch still gets its own line; the rest arrive as one line when the stretch ends
@@ -10,7 +31,7 @@
   (the rare purple "Challenge Complete!" ones) always get their own line. Nothing is skipped.
 - **Only real boss kills in #campfire.** A kill is announced only when it's a named boss that
   the server announces anyway. Ordinary elites, dungeon minions and spawner elites stay quiet.
-- **Travel cooldowns even out at 15 minutes** (already live since Friday 7:14pm, no restart needed). `/home` drops from 30 minutes to 15, `/spawn` goes
+- **Travel cooldowns even out at 15 minutes** (live since Friday 7:14pm, before this restart). `/home` drops from 30 minutes to 15, `/spawn` goes
   from 10 to 15, and town spawns (`/t spawn`, outposts, other towns) go from 30 seconds to 15
   minutes, so every shortcut home waits the same.
 - **Veinminer and Excavator pay XP for every ore.** Before, a vein only paid XP for the first
@@ -36,7 +57,7 @@
 
 - **`/home` has a 30-minute cooldown, `/spawn` a 10-minute one** (both 15 minutes since Friday 7:14pm). Plan your trips; roads are
   your friend. Cooldowns carry over a restart.
-- **The board can take a whole pack of jobs at once.** Founding Day's 23-job pack goes up in one
+- **The board can take a whole pack of jobs at once.** Founding Day's pack (22 new jobs) goes up in one
   move at the **2pm ceremony on Saturday**. See the [Founding Day Mega Pack](founding-day-mega-pack.md)
   page for the full list.
 - **New jobs get a sensible default deadline.** The Expires box now suggests a date instead of
