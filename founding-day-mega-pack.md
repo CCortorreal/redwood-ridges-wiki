@@ -4,7 +4,7 @@
 > what will be on the board, not what's there yet — check back after the ceremony, or watch
 > `#contracts` for the threads as they open.
 
-The board wall fills all at once, right at the ceremony: **23 jobs**, six of them mega builds.
+The board wall fills all at once, right at the ceremony: **22 new jobs**, six of them mega builds (plus the Starter Cabins card already up).
 Every job was somebody's idea first — the "idea by" name is who asked for it.
 
 **Crew jobs need their whole crew before the payout lands.** A few of the biggest jobs list
@@ -47,7 +47,7 @@ markers. The purse pays once, when the whole job is finished and checked, not pe
 | Map Wall, Ranger Station 3F | 10 a map | up to 20 | DeadEyeMeg |
 | Top Sneaky (a cool spot) | 20 | up to 5 | EldenJohnson |
 | Camp Cleanup (recycle) | 15 a haul | up to 4 | Tylerbro1 |
-| Starter Cabin | 30 | up to 2 | EldenJohnson |
+| Starter Cabins (the card already on the board) | 30 | up to 2 | EldenJohnson |
 
 ## What these places will do once they're finished
 
