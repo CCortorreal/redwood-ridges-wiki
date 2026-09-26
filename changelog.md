@@ -3,7 +3,7 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
-## Staged for the next restart — RedwoodAdvancements 0.2.0, RedwoodLens 0.12.2, rr-guide (uploaded 17:20 CDT 2026-09-25, not live yet; calliope `desk/campfire-0925` `e3349b1`)
+## Staged for the 04:00 CDT 2026-09-26 restart — RedwoodAdvancements 0.2.0, RedwoodLens 0.12.3, rr-guide, Essentials + Towny cooldowns (not live yet; calliope `22b8412` merge + `e16777b`)
 
 **RedwoodAdvancements 0.2.0 (the #campfire flood):** the relay posted every chat-announcing
 advancement with no limit (one player: 31 lines in 71 minutes). Now, per player: challenges always
@@ -13,12 +13,25 @@ never drop). BlazeandCave's "/trigger bac_statistics" hint is stripped from desc
 Config: `throttle.window-minutes`, `instant-per-window`, `global-cap-per-minute`, `max-names`,
 `ignore-keys`, `format.digest`. DigestTest: 38 checks; the real 31-line hour replays as 8 posts.
 
-**RedwoodLens 0.12.2:** EliteMobs kills reach #campfire only for custom bosses whose EliteMobs
+**RedwoodLens 0.12.2 (carried in 0.12.3):** EliteMobs kills reach #campfire only for custom bosses whose EliteMobs
 config broadcasts their death (`announcementPriority` >= `world-stream.elitemobs.min-announcement-priority`,
 default 1). A spawner "Lvl 3 Elite Slime" had got through the old natural-entity check.
 Live config: the two `auction-stream:` blocks are merged (the boot warned "duplicate keys").
 
-**rr-guide:** ch9/ch18 death fee, ch17 /receipts + /home + cooldowns (field-guide.md, calliope `346f203`).
+**RedwoodLens 0.12.3 (Veinminer/Excavator XP):** SuperEnchants 4.6.2 breaks the extra blocks with
+`Block.breakNaturally` a tick later: no BlockBreakEvent, so no XP and no Enlightened bonus past the
+first block. `MiningXp` snapshots the candidate blocks before SuperEnchants acts, confirms the break
+wasn't cancelled, and after the breaks settle spawns a real XP orb for each changed ore: the vanilla
+roll times Enlightened's multiplier (`base + level x per_level`, truncated exactly like
+SuperEnchants' `XPBonusAction`), read from SuperEnchants' own `enlightened.yml`/`veinminer.yml`.
+No XP with Silk Touch or in creative; a paid-once ledger prevents double pay. `mining-xp.enabled`,
+`settle-delay-ticks`. OreXpTest: 32 checks, including the live SuperEnchants files.
+
+**Cooldowns (Carlos 18:59, a player asked):** Essentials `command-cooldowns` `/home` 1800 s -> 900 s,
+`/spawn` 600 s -> 900 s; Towny `town_spawn`, `outpost` and the six other town/nation spawn
+cooldowns 30 s -> 900 s, which closes the `/t spawn` bypass of the `/home` cooldown.
+
+**rr-guide:** ch9/ch18 death fee, ch17 /receipts + /home + the 15-minute cooldowns (field-guide.md).
 
 ## Restart 16:35 CDT 2026-09-25 — RedwoodLedger 0.2.0, RedwoodLens 0.12.1, rr-advfix mine claims (calliope `desk/ride-0925` `91eef20` / `70c0ccd`; advfix main `f77489a`)
 

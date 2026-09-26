@@ -10,8 +10,15 @@
   (the rare purple "Challenge Complete!" ones) always get their own line. Nothing is skipped.
 - **Only real boss kills in #campfire.** A kill is announced only when it's a named boss that
   the server announces anyway. Ordinary elites, dungeon minions and spawner elites stay quiet.
+- **Travel cooldowns even out at 15 minutes.** `/home` drops from 30 minutes to 15, `/spawn` goes
+  from 10 to 15, and town spawns (`/t spawn`, outposts, other towns) go from 30 seconds to 15
+  minutes, so every shortcut home waits the same.
+- **Veinminer and Excavator pay XP for every ore.** Before, a vein only paid XP for the first
+  block you hit. Now every ore it breaks drops real XP orbs, the same amount a normal break would,
+  and **Enlightened** boosts them too. Mending picks them up like any other orbs. (Silk Touch still
+  gives no XP, same as vanilla.)
 - **The in-game guide catches up.** The Field Guide now lists the 1-Marshmallow death fee,
-  `/receipts`, and `/home` with its 30-minute cooldown.
+  `/receipts`, and the 15-minute travel cooldowns.
 
 ## Friday evening (restart 16:35 CDT, 25 September)
 
@@ -27,7 +34,7 @@
 
 ## Friday afternoon (restart 13:51 CDT, 25 September)
 
-- **`/home` has a 30-minute cooldown, `/spawn` a 10-minute one.** Plan your trips; roads are
+- **`/home` has a 30-minute cooldown, `/spawn` a 10-minute one** (both 15 minutes from the next restart). Plan your trips; roads are
   your friend. Cooldowns carry over a restart.
 - **The board can take a whole pack of jobs at once.** Founding Day's 23-job pack goes up in one
   move at the **2pm ceremony on Saturday**. See the [Founding Day Mega Pack](founding-day-mega-pack.md)

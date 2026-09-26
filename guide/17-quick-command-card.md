@@ -52,7 +52,7 @@ Scouts add `/t new`, and every higher civic rank inherits that permission.
 Ranger, Pathfinder, and Scout Master raise your contract capacity and rune odds; they don't make you server staff.
 Wardens are staff. Contract staff tools still require separate staff permission.
 `/tpa` and `/tpahere` are intentionally unavailable; use roads, town spawn, `/home`, or `/spawn`.
-`/home` has a 30-minute cooldown and `/spawn` a 10-minute one.
+`/home`, `/spawn` and `/t spawn` each have a 15-minute cooldown.
 
 - **Return to Spawn:** `/spawn`
 - **Go Home:** `/home` (set it with `/sethome`)
