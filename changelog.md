@@ -3,7 +3,7 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
-## Staged for the 04:00 CDT 2026-09-26 restart — RedwoodAdvancements 0.2.0, RedwoodLens 0.12.3, rr-guide, Essentials + Towny cooldowns (not live yet; calliope `22b8412` merge + `e16777b`)
+## Staged for the 04:00 CDT 2026-09-26 restart — RedwoodAdvancements 0.2.0, RedwoodLens 0.12.3, rr-guide (not live yet; cooldowns below already live; calliope `22b8412` merge + `e16777b`)
 
 **RedwoodAdvancements 0.2.0 (the #campfire flood):** the relay posted every chat-announcing
 advancement with no limit (one player: 31 lines in 71 minutes). Now, per player: challenges always
@@ -27,7 +27,7 @@ SuperEnchants' `XPBonusAction`), read from SuperEnchants' own `enlightened.yml`/
 No XP with Silk Touch or in creative; a paid-once ledger prevents double pay. `mining-xp.enabled`,
 `settle-delay-ticks`. OreXpTest: 32 checks, including the live SuperEnchants files.
 
-**Cooldowns (Carlos 18:59, a player asked):** Essentials `command-cooldowns` `/home` 1800 s -> 900 s,
+**Cooldowns (Carlos 18:59, a player asked; LIVE 19:14 CDT via `ess reload` + `ta reload config`, file read back unchanged):** Essentials `command-cooldowns` `/home` 1800 s -> 900 s,
 `/spawn` 600 s -> 900 s; Towny `town_spawn`, `outpost` and the six other town/nation spawn
 cooldowns 30 s -> 900 s, which closes the `/t spawn` bypass of the `/home` cooldown.
 
