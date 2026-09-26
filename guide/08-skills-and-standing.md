@@ -31,11 +31,17 @@ A shield ⛨ beside a name marks camp staff: silver for a Warden, gold for the o
 
 ### Climbing It
 
-The board keeps a lifetime count of what you've been paid for real work.
-**Ranger:** 400 Marshmallows of paid contracts and two weeks on the Ridge, or found a town.
-**Pathfinder:** 1,200 paid, 45 days here, 40 advancements, and roots: 40 finished contracts, a month as a town resident, or a town of your own with two other residents.
-**Scout Master:** 3,000 paid, 120 days, 80 advancements, and a clean record the staff confirm by hand.
-Ranger and Pathfinder land on their own the moment you cross the bar. Scout Master never does.
+The board keeps a lifetime count of the Marshmallows you've been paid for board work.
+
+| Rank | Earned from contracts | Time on the Ridge | Also needs |
+|---|---:|---:|---|
+| **Scout** | your first paid job | — | — |
+| **Ranger** | 400 | 14 days | — or skip both: found a town |
+| **Pathfinder** | 1,200 | 45 days | 40 advancements, and roots: 40 different contracts finished, 30 days as a town resident, or mayor of a town with 2 other residents |
+| **Scout Master** | 3,000 | 120 days | 80 advancements and a clean record, confirmed by staff |
+
+Scout, Ranger and Pathfinder land on their own the moment you cross the bar. Scout Master never does.
+Most of the camp should settle at Scout and Ranger; Pathfinder is for the regulars who've put roots down.
 
 ### What Does Not Promote You
 

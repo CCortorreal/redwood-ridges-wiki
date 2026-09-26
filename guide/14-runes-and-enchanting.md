@@ -17,11 +17,14 @@ Every table roll gives you one rune for sure.
 Your civic rank sets the chance of a **second** rune: Seedling 25%, Scout 35%, Ranger 45%, Pathfinder 55%, Scout Master 60%.
 Enchant with another player standing within ten blocks and the chance rises another 10%.
 Nothing pushes the odds past 70%. Enchanting is better done at camp than alone.
+Rank buys you more runes, not stronger ones: a Seedling's Timber is the same Timber as a Scout Master's.
 
 ### Runes in the Wild
 
 Villagers sometimes offer runed gear; so does loot in the world.
 **Excavator** digs a cube at once, and every extra block wears the tool like a normal swing.
+**Timber** is a Legendary axe rune from the table or world loot. One chop fells the whole tree, a full redwood included.
+Every log it fells wears the axe like a normal chop, so bring Unbreaking. Sneak to take a single log and leave your cabin standing.
 Runes you don't want can't be scrubbed at a grindstone the way vanilla enchants can. Trade the item instead.
 
 ### Ruin Runes

@@ -2,6 +2,19 @@
 
 > Everything here is live unless its heading says otherwise. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
 
+## Saturday late morning (restart 10:46 CDT, 26 September)
+
+- **Timber is Legendary.** One chop fells the whole tree, a full redwood included. Every log wears
+  the axe like a normal chop, so bring Unbreaking. Sneak to take one log. It comes from the
+  enchanting table and from world loot.
+- **Excavator wears your pick fairly now.** It was charging far more durability than the blocks it
+  broke, and its extra ores weren't dropping XP. Both are fixed.
+- **The old TimberZ "Timber" enchant is gone.** It was a second, separate Timber. Books or axes that
+  carried it keep everything else; only that enchant drops off.
+- **Chat names match the tab list.** Staff names are no longer red in chat.
+- **The first-day tour plays its sounds again**, and the in-game guide's contracts chapter matches
+  how the board works today.
+
 ## Saturday morning (restart 09:07 CDT, 26 September)
 
 - **Your jobs, from anywhere.** Claiming still happens at the board: click the book, press
