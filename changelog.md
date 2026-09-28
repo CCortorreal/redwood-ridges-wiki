@@ -3,10 +3,10 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
-## Staged for the next restart — RedwoodLens 0.15.x, RedwoodBoard 1.9.14, XaeroTracker 1.3.1, rr-guide, client pack alpha.13
+## Restart 2026-09-28 (afternoon) — RedwoodLens 0.15.4, RedwoodBoard 1.9.14, XaeroTracker 1.3.1, rr-guide, client pack alpha.13
 
-Not live. The plugins were built and tested on the local Paper 26.2 fixture. XaeroTracker and the
-EssentialsDiscord change are already on the server's disk, waiting for the restart.
+Live. Built and tested on the local Paper 26.2 fixture before the restart. RedwoodLens 0.15.4 is
+0.15.3 rebuilt with the 92-page guide index (380,521 B, sha256 `a72e5c53…`).
 
 - **Players on Xaero's maps:** XaeroTracker 1.3.1 (MIT, Modrinth `F3sBNZrj`, sha1 `738c73a7…`)
   sends every player's position on `xaerominimap:main` / `xaeroworldmap:main` (protocol 3, which
@@ -32,14 +32,14 @@ EssentialsDiscord change are already on the server's disk, waiting for the resta
   per whitelisted or online player), refreshed every 5 minutes and 10 s after a LuckPerms group change.
   The Union Rep bot (Vesta, tabletop `51f0a39`) mirrors it onto Discord roles: one ladder role
   (Seedling → Scout Master; Warden/Elder renamed Pathfinder/Scout Master) plus MC Staff from
-  LuckPerms `staff.*` or the staff review. It starts in report mode, posting to #mc-moderation.
+  LuckPerms `staff.*` or the staff review. It starts in report mode: staff read what it would change in #mc-moderation before it moves roles.
 - **Staff channel:** EssentialsDiscord `channels.staff` moves from #moderator-only to the new
-  #mc-moderation (live on Discord since 13:26; the plugin reads it at boot).
+  #mc-moderation (the channel has existed since 13:26).
 
 - **`/guide`** (alias `/fieldguide`, `rr.guide.use` default true): My Camp hub (civic rank from
   LuckPerms `group.scout|ranger|pathfinder|scout_master`, Vault balance, town via Towny + charters,
   mailbox and dead letters, jobs from RedwoodBoard's `contracts.json`), `find` (ranked search over
-  `guide-index.json`, 91 pages, generated from the manuscript), `trail` (First Trail; grants
+  `guide-index.json`, 92 pages, generated from the manuscript), `trail` (First Trail; grants
   `rr:trail_ready`, an advancement with no display so the rank engine never counts it), `near`
   (armed places + BlueMap link, `guide.bluemap-url` / `guide.bluemap-map`), `costs` (stamp and
   Death's toll from live config), `help` (to online staff and `essentials.helpop.receive`, 60 s
@@ -47,14 +47,14 @@ EssentialsDiscord change are already on the server's disk, waiting for the resta
 - **Staff pages**: rank from `group.staff.helper|warden|admin` (never the civic `group.warden`) or
   `rr.guide.staff.*`; 8 pages from `staff-guide.md`, each command marked held or not for the
   viewer; case notes to `cases.log` and to Discord only via a registered `rr-report` route.
-- **rr-guide**: 20 chapters, 102 dialogs, 92 searchable pages (91,134 B, sha256 `85bf89fe…`). Chapters 19 (Post &
+- **rr-guide**: 20 chapters, 102 dialogs, 92 searchable pages (91,134 B). Chapters 19 (Post &
   Mail) and 20 (Help & Staff) are new; the wiki's audited additions (ruin runes, class abilities,
   `/qs size`, the rank table, ruin reclaim 200 after 4 h, the Discord channels) are merged back into
   the manuscript. Chapter 11 adds "Players and Waypoints on Xaero's"; chapter 14 the tooltip budget,
   `/enchants held` and trade offers; chapter 10 the Discord rank roles. A command coverage gate fails
   the build if a player command in our plugins has no guide page.
 - **Wiki guide pages are now generated** from the same manuscript (`field-guide-wiki.mjs`).
-- Tests: GuideTest 94; guide-integ 70 checks on 0.15.3 (fake players, real ShowDialog packets, every
+- Tests: GuideTest 94; guide-integ 70 checks on 0.15.4 (fake players, real ShowDialog packets, every
   index page resolves to a registry dialog; waypoint, tooltip-budget and trade checks included);
   charters-integ 64/0 and post-office-integ pass on 0.15.1; RankExportTest 18; XaeroTracker
   boot-tested on a copy of the fixture.

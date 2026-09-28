@@ -3,14 +3,14 @@
 A small civilization growing out of a ranger camp in the pines. Minecraft (Java + Bedrock), Paper 26.2.
 
 - **Server:** `104.204.220.59:25565` · **Map:** http://104.204.220.59:8100 · **Discord:** https://discord.gg/TqPYyJcdXF
-- **[What's New — 28 September 2026](whats-new.md)** — mailboxes and parcels, town charters and the Hall of Towns, rank-up announcements; coming next: `/guide` (My Camp, Ask the Guide, First Trail), other players on Xaero's maps (client pack alpha.13), waypoint buttons, rune lore that fits the screen, and Discord rank roles.
+- **[What's New — 28 September 2026](whats-new.md)** — `/guide` (My Camp, Ask the Guide, First Trail), other players on Xaero's maps (client pack alpha.13), waypoint buttons, rune lore that fits the screen, Discord rank roles; and from the 10:45 restart: mailboxes and parcels, town charters and the Hall of Towns, rank-up announcements.
 - **[Changelog](changelog.md)** — version numbers and mechanism, for anyone who wants the technical detail.
 - **[Founding Day Mega Pack](founding-day-mega-pack.md)** — the 22 jobs that went up at the Founding Day ceremony (Saturday 26 September).
 
 ## The Scout's Field Guide
 
 The in-world player manual, one page per chapter. Written in the Scout voice; commands and costs stay plain.
-These pages are generated from the same manuscript as the in-game book, so the two always match. Chapters 19-20 and `/guide` arrive with the next restart.
+These pages are generated from the same manuscript as the in-game book, so the two always match. In game, `/guide` opens it with search and your own My Camp page.
 
 1. [Where You've Landed](guide/01-where-youve-landed.md)
 2. [Marshmallows, the Camp's Money](guide/02-marshmallows-the-camps-money.md)
