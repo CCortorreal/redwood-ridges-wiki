@@ -18,6 +18,22 @@
   wiki already said that the in-game book was missing (ruin runes, class abilities, selling by the
   stack, the rank table, reclaiming a ruined town, the Discord channels).
 - **Staff get their own pages in `/guide`**, by rank. Players never see them.
+- **See other players on Xaero's maps**, even far away. Import the new client
+  pack (**alpha.13**) in Prism when it's posted: other players show on your minimap and world
+  map, and the radar shows players only (no mobs or items). Rather not be seen? `/xt toggleTracked`
+  hides you; run it again to show up. Players in spectator or invisible never show, and neither do
+  vanished staff.
+- **Waypoint buttons.** Nearby Places in `/guide` gets a **Waypoint** button for each place, and a
+  town's charter card gets **Waypoint to** its spawn. Click it, then **[Add]** in chat, and it's
+  saved in Xaero's.
+- **Rune lore fits your screen.** An item with a pile of runes used to run its tooltip off the
+  screen. Now the lore shortens to fit, and `/enchants held` shows every rune on the item in your
+  hand in full. Villagers' trade offers show rune lore too, so you know what a book does before you
+  buy it.
+- **Your Discord rank role follows your in-game rank** (Seedling up to Scout Master), for Discord
+  accounts linked through `/apply`. Staff check the first sync before roles start moving.
+- **SpawnClaim, the town that holds spawn, is off Find a Town**, so the list only shows towns you
+  can join.
 
 ## Monday (restart 10:45 CDT, 28 September)
 

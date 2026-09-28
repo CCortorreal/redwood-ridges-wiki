@@ -3,9 +3,38 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
-## Staged for the next restart — RedwoodLens 0.15.0 + rr-guide (calliope `5721857` + the 2026-09-28 guide merge)
+## Staged for the next restart — RedwoodLens 0.15.x, RedwoodBoard 1.9.14, XaeroTracker 1.3.1, rr-guide, client pack alpha.13
 
-Not live. Built and tested on the local Paper 26.2 fixture only.
+Not live. The plugins were built and tested on the local Paper 26.2 fixture. XaeroTracker and the
+EssentialsDiscord change are already on the server's disk, waiting for the restart.
+
+- **Players on Xaero's maps:** XaeroTracker 1.3.1 (MIT, Modrinth `F3sBNZrj`, sha1 `738c73a7…`)
+  sends every player's position on `xaerominimap:main` / `xaeroworldmap:main` (protocol 3, which
+  matches the 26.2 minimap and world map). Skipped: players who opted out (`/xt toggleTracked`,
+  `xaerotracker.toggleTracked` default true), invisible or spectator players, and anyone with
+  Essentials' `vanished` metadata. Client pack **alpha.13** (from alpha.9, config only) turns the
+  display on: `display_radar`, `tracked_players_on_minimap`, `display_minimap_radar`,
+  `display_tracked_players` true; the radar categories hostile, friendly, items and other entities set
+  to `displayed: false`. `tracked_players_in_world` and cave mode stay false.
+- **Waypoint buttons (Lens 0.15.1):** `/guide waypoint x y z name` sends one system line in Xaero's
+  share format (`xaero-waypoint:name:initials:x:y:z:6:false:0:Internal`, read from the 26.5.1
+  minimap). Offered in Nearby Places and on the charter card of a town you're away from, only to
+  clients that registered a `xaero*` channel (`guide.xaero-waypoints`: auto / all / off).
+- **Tooltip budget (Lens 0.15.2):** `enchant-tooltips.max-lines` (default 18) steps an item's lore from
+  the full shape, to lean (name and effect), to compact (names only, then "Full details: /enchants
+  held"). A 13-rune axe went from 72 lines to 6. `/enchants held` (alias `hand`) opens every enchant
+  on the main-hand item as a scrolling dialog.
+- **Merchant offers (Lens 0.15.3):** opening a trade rebuilds each offer's result with the unified
+  lore; price and uses unchanged.
+- **Hidden towns (Lens 0.15.0):** `charters.hidden-towns` (default `[SpawnClaim]`): no intro letter,
+  not in Find a Town or the recruiting line, no view or petition by name.
+- **Rank export (RedwoodBoard 1.9.14):** `plugins/RedwoodBoard/ranks.json` (top civic rank + staff rung
+  per whitelisted or online player), refreshed every 5 minutes and 10 s after a LuckPerms group change.
+  The Union Rep bot (Vesta, tabletop `51f0a39`) mirrors it onto Discord roles: one ladder role
+  (Seedling → Scout Master; Warden/Elder renamed Pathfinder/Scout Master) plus MC Staff from
+  LuckPerms `staff.*` or the staff review. It starts in report mode, posting to #mc-moderation.
+- **Staff channel:** EssentialsDiscord `channels.staff` moves from #moderator-only to the new
+  #mc-moderation (live on Discord since 13:26; the plugin reads it at boot).
 
 - **`/guide`** (alias `/fieldguide`, `rr.guide.use` default true): My Camp hub (civic rank from
   LuckPerms `group.scout|ranger|pathfinder|scout_master`, Vault balance, town via Towny + charters,
@@ -18,13 +47,17 @@ Not live. Built and tested on the local Paper 26.2 fixture only.
 - **Staff pages**: rank from `group.staff.helper|warden|admin` (never the civic `group.warden`) or
   `rr.guide.staff.*`; 8 pages from `staff-guide.md`, each command marked held or not for the
   viewer; case notes to `cases.log` and to Discord only via a registered `rr-report` route.
-- **rr-guide**: 20 chapters, 101 dialogs. Chapters 19 (Post & Mail) and 20 (Help & Staff) are new;
-  the wiki's audited additions (ruin runes, class abilities, `/qs size`, the rank table, ruin
-  reclaim 200 after 4 h, the Discord channels) are merged back into the manuscript. A command
-  coverage gate fails the build if a player command in our plugins has no guide page.
+- **rr-guide**: 20 chapters, 102 dialogs, 92 searchable pages (91,134 B, sha256 `85bf89fe…`). Chapters 19 (Post &
+  Mail) and 20 (Help & Staff) are new; the wiki's audited additions (ruin runes, class abilities,
+  `/qs size`, the rank table, ruin reclaim 200 after 4 h, the Discord channels) are merged back into
+  the manuscript. Chapter 11 adds "Players and Waypoints on Xaero's"; chapter 14 the tooltip budget,
+  `/enchants held` and trade offers; chapter 10 the Discord rank roles. A command coverage gate fails
+  the build if a player command in our plugins has no guide page.
 - **Wiki guide pages are now generated** from the same manuscript (`field-guide-wiki.mjs`).
-- Tests: GuideTest 88; guide-integ 63/63 (fake players, real ShowDialog packets, all 91 index
-  pages resolve to registry dialogs); charters-integ 62/0 and post-office-integ 41/0 against 0.15.0.
+- Tests: GuideTest 94; guide-integ 70 checks on 0.15.3 (fake players, real ShowDialog packets, every
+  index page resolves to a registry dialog; waypoint, tooltip-budget and trade checks included);
+  charters-integ 64/0 and post-office-integ pass on 0.15.1; RankExportTest 18; XaeroTracker
+  boot-tested on a copy of the fixture.
 
 ## Restart 10:45 CDT 2026-09-28 — RedwoodLens 0.14.1, RedwoodBoard 1.9.13, WorldGuard 7.0.19, rr-guide
 

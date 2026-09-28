@@ -8,8 +8,12 @@ Hover any enchanted item and the lore explains what each rune does.
 `/enchants` (or `/runes`) opens the full guide: every rune, its tier, and what it conflicts with.
 Tiers run Common → Uncommon → Rare → Legendary. Relics never come from a table roll.
 A rune's name in your lore is the name in the guide, so look before you fight.
+On an item with many runes the lore shortens to fit your screen: first the details go, then it lists the names only.
+Hold the item and run `/enchants held` to read every rune on it in full.
+Villagers' trade offers show the same rune lore, so you know what you're buying.
 
 - **Rune Guide:** `/enchants`
+- **Runes on This Item:** `/enchants held`
 
 ### Rolling Together
 

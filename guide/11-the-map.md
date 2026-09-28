@@ -20,7 +20,18 @@ Use `/towny map` to see claim cells around you.
 The treeline marks the current limit for exploration.
 Share discoveries so the camp's map keeps improving.
 
+### Players and Waypoints on Xaero's
+
+With the current client pack (alpha.13 or newer), other players show on your minimap and world map, even far away.
+To hide yourself from everyone's maps, run `/xt toggleTracked`; run it again to show up.
+Players in spectator or invisible never show, and neither do vanished staff.
+In `/guide`, **Nearby Places** has a **Waypoint** button for each place.
+Click it, then click **[Add]** in chat, and the place is saved as a Xaero's waypoint.
+A charter card for a town you're away from has **Waypoint to** that town's spawn.
+
 - **Nearby Claims:** `/towny map`
+- **Nearby Places:** `/guide near`
+- **Hide or Show Me:** `/xt toggleTracked`
 
 
 ---

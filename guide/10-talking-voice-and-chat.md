@@ -19,7 +19,8 @@ The camp Discord holds official notices and offline plans.
 `#auction-house` has one post per item at the Auctioneer, marked Sold or Expired as it goes. Reply to ask the seller; buying happens in-game.
 `#server-status` shows server uptime and the current player count.
 Union Rep provides help, map, and group commands.
-Minecraft ranks don't sync to Discord roles yet.
+Your Discord rank role (Seedling up to Scout Master) follows your in-game rank, if your Discord account is linked through `/apply`.
+If your role looks wrong, ask staff to check your link.
 
 - [Open Camp Discord](https://discord.gg/TqPYyJcdXF)
 
