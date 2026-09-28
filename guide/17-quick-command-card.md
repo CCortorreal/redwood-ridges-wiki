@@ -14,10 +14,12 @@ Tap safe commands to run them right away. Commands needing names or amounts open
 
 ### Town
 
-These commands let you found towns, invite players, accept invitations, claim land, and fund the bank.
+These commands let you find or found a town, run its charter, claim land, and fund the bank.
 Commands needing details open in chat for you to finish.
 
 - **Town Info:** `/t`
+- **Find a Town:** `/charter towns`
+- **Charter Desk:** `/charter`
 - **Found a Town:** `/t new`
 - **Invite a Player:** `/t add`
 - **Accept Invite:** `/accept`
@@ -44,6 +46,20 @@ BlueMap and Discord both open in your regular browser.
 - [Open BlueMap](http://104.204.220.59:8100)
 - [Open Camp Discord](https://discord.gg/TqPYyJcdXF)
 
+### Guide, Mail and Help
+
+`/guide` opens **My Camp**, your own page: rank, wallet, town, mail and open jobs.
+`/guide find` searches this whole book, and `/guide help` reaches staff who are online.
+`/mailbox` sets or finds your mailbox; `/tour` opens the Camp Tour log.
+`/rreport` sends the Wardens a private report.
+
+- **My Camp:** `/guide`
+- **Ask the Guide:** `/guide find`
+- **My Mailbox:** `/mailbox`
+- **Camp Tour:** `/tour`
+- **Ask for Help:** `/guide help`
+- **Report a Problem:** `/rreport`
+
 ### Commands by Rank
 
 Every rank can use `/spawn`, `/home`, `/bal`, `/pay`, `/receipts`, `/contracts`, `/enchants`, `/skills`, `/ah` (at the Auctioneer), and voice chat.
@@ -52,10 +68,11 @@ Scouts add `/t new`, and every higher civic rank inherits that permission.
 Ranger, Pathfinder, and Scout Master raise your contract capacity and rune odds; they don't make you server staff.
 Wardens are staff. Contract staff tools still require separate staff permission.
 `/tpa` and `/tpahere` are intentionally unavailable; use roads, town spawn, `/home`, or `/spawn`.
+Save your home spot with `/sethome` first; `/home` takes you back to it.
 `/home`, `/spawn` and `/t spawn` each have a 15-minute cooldown.
 
 - **Return to Spawn:** `/spawn`
-- **Go Home:** `/home` (set it with `/sethome`)
+- **Go Home:** `/home`
 - **Open Contracts:** `/contracts`
 - **Completed Work:** `/contracts archive`
 

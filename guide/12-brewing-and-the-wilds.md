@@ -65,14 +65,6 @@ Bring discoveries back as trophies or trade goods.
 
 - [Open BlueMap](http://104.204.220.59:8100)
 
-### Small Things That Work Here
-
-- **Name tags** and **smithing templates** can be crafted.
-- Mobs sometimes drop **their heads**.
-- **Endermen don't pick up blocks**, so your walls stay put.
-- Armor trims come in **extra materials**, and some trims carry small effects.
-- Armor stands have extra **poses**.
-
 ### The Alpha Loot Stack
 
 EliteMobs, RoseLoot, and SuperEnchants are loaded and running.
@@ -80,6 +72,13 @@ Their balance and interactions may change during alpha.
 Rare gear should reward players who explore the world.
 The system isn't meant to reward AFK farming.
 Report raw item IDs, broken anvils, or noisy effects.
+
+### Small Things That Work Here
+
+- **Name tags** and **smithing templates** can be crafted.
+- Mobs sometimes drop **their heads**.
+- **Endermen don't pick up blocks**, so your walls stay put.
+- Armor stands have extra **poses**.
 
 ### Trail Discipline
 

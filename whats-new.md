@@ -1,6 +1,64 @@
-# What's New — 26 September 2026
+# What's New — 28 September 2026
 
 > Everything here is live unless its heading says otherwise. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
+
+## Coming with the next restart (not live yet)
+
+- **`/guide` opens My Camp**, your own page: your rank and what the next one needs, your wallet,
+  your town (or **Find a Town**), mail waiting for you, your open jobs and the best-paying jobs on
+  the board. From there:
+  - **Ask the Guide** searches the whole Field Guide and opens the page you need.
+  - **First Trail** is five first steps: open the guide, make Scout, join or found a town, set a
+    home, set a mailbox. Finish all five for a keepsake advancement. It's a souvenir, not a rank.
+  - **Nearby Places** lists spawn, the market, Death's statue and the camp's open places, with
+    distance, direction and a BlueMap link.
+  - **Costs** shows today's stamp and Death's toll, straight from the server's settings.
+  - **Ask for Help** reaches every staff member who's online.
+- **Two new chapters in the in-game guide: Post & Mail and Help & Staff**, plus everything this
+  wiki already said that the in-game book was missing (ruin runes, class abilities, selling by the
+  stack, the rank table, reclaiming a ruined town, the Discord channels).
+- **Staff get their own pages in `/guide`**, by rank. Players never see them.
+
+## Monday (restart 10:45 CDT, 28 September)
+
+- **Mailboxes.** Stand on a chest at your own place and type `/mailbox`: that chest becomes your
+  mailbox and only you can open it. It has to be on a plot you own or your own town's land, or an
+  **empty** chest out in the wilderness if you live out there. Run `/mailbox` again with no chest
+  under you to find it.
+- **Parcels by post.** The post office's **Postmaster** takes your items and delivers them straight
+  into someone's mailbox, online or not, for a small stamp (2 Marshmallows for one slot, never more
+  than 20). A full or missing mailbox sends the parcel to the **dead-letter chest** at the post
+  office, where only the sender and the recipient can see it. The Postmaster opens once staff set
+  up the post office.
+- **Town charters: join a town without catching the mayor online.** Open **Find a Town**
+  (`/charter towns`), read a town's charter, and petition. The mayor can say yes while you're
+  offline and a letter brings the answer. Towns choose how people get in: the mayor approves each
+  one (Manual), a civic rank gets you in at once (Passport), or two residents vouch for you
+  (Vouch). A petition waits up to 3 days.
+- **The Hall of Towns** at spawn holds every town's charter in one place.
+- **Mayors: `/charter`** opens your charter desk: write a pitch, pick how people join, and set a
+  welcome kit that goes to each newcomer by post (the town bank pays the stamp). Your pitch also
+  shows on the town's card in `#the-world`.
+- **Letters.** Charter answers and parcel notices arrive as letters that wait for you:
+  `/mail read`.
+- **Rank-ups are announced.** Making Ranger, Pathfinder or Scout Master now gets a line in chat
+  for the whole server, however it happened.
+
+## Sunday evening (restart 18:58 CDT, 27 September)
+
+- **Guild repair scrap works again.** Reggie wasn't recognising repair scrap because the extra
+  trim-materials pack was rewriting items in your inventory and wiping the guild's mark off them.
+  That pack is gone; its trim materials stay registered, so nothing you're holding breaks or
+  disappears. Scrap that already lost its mark won't come back on its own: tell staff.
+- **The extra trim materials are retired.** New trims use the normal materials, and the automatic
+  trim-stack tidy-up (below, 23-24 September) is switched off along with it.
+
+## Saturday midday (restarts 12:15 and 12:32 CDT, 26 September)
+
+- **Ranks count Marshmallows, not jobs.** The Ranger/Pathfinder/Scout Master bars (400 / 1,200 /
+  3,000) were counting paid *jobs* instead of the Marshmallows you earned. Fixed. Pay you got from
+  staff with the old pay command before the board existed now counts too.
+- **Tips can say anything.** Pick **Other...** as a tip's reason and type your own.
 
 ## Saturday late morning (restart 10:46 CDT, 26 September)
 

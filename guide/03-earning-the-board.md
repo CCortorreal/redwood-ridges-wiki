@@ -6,14 +6,14 @@ The board lists paid work the camp needs.
 
 Each contract lists the job, payout, deadline, and completion rules.
 Some jobs are solo; others need a crew.
-Look at a book on the board and its name tells you where it stands: open, who holds it, how many more a crew still needs, or ready for review.
-A crew job like "2-4 builders" needs at least its smallest crew on the claim before **Mark ready** works.
 Groups choose one payee or agree on the split before starting.
 Ask in chat before building if anything seems unclear.
 
 ### Claim the Work
 
 Walk to the board, click its book or frame, and press **Claim this job**. Claiming only happens at the board.
+Look at a book on the board and its name tells you where it stands: open, who holds it, how many more a crew still needs, or ready for review.
+A crew job like "2-4 builders" needs at least its smallest crew on the claim before **Mark ready** works.
 `/contracts` shows every open job and the ones you hold, from anywhere. Click one of yours to open its card.
 Your rank sets how many unpaid jobs you can hold at once: Seedling 1, Scout 2, Ranger 3, Pathfinder 5, Scout Master 8.
 Changed your mind? Open the card (at the board or from `/contracts`) and press **Give up** so someone else can take it.
@@ -24,7 +24,7 @@ Check with the Head Ranger before an expensive final step.
 ### Verification and Payday
 
 When you finish, stand inside your build, open the card from `/contracts`, and press **Mark ready**.
-Marking ready remembers where you're standing, so the Head Ranger can come straight to it.
+Marking ready remembers where you stand, so the Head Ranger comes straight to it.
 The Head Ranger checks the work, then presses **Complete & pay**.
 About two minutes after a job is fully paid, its book comes off the wall; `/contracts archive` keeps the record.
 Your first official payout makes you a **Scout**, the next rank after Seedling.

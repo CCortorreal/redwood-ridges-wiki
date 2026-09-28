@@ -3,13 +3,14 @@
 A small civilization growing out of a ranger camp in the pines. Minecraft (Java + Bedrock), Paper 26.2.
 
 - **Server:** `104.204.220.59:25565` · **Map:** http://104.204.220.59:8100 · **Discord:** https://discord.gg/TqPYyJcdXF
-- **[What's New — 26 September 2026](whats-new.md)** — manage your jobs from anywhere, mark ready where you build, paid books leave the wall; /receipts, /home, the market, Death's statue, ranks, runes.
+- **[What's New — 28 September 2026](whats-new.md)** — mailboxes and parcels, town charters and the Hall of Towns, rank-up announcements; coming next: `/guide` (My Camp, Ask the Guide, First Trail).
 - **[Changelog](changelog.md)** — version numbers and mechanism, for anyone who wants the technical detail.
-- **[Founding Day Mega Pack](founding-day-mega-pack.md)** — 22 new jobs going up at the Founding Day ceremony (Saturday 26 September, 2pm).
+- **[Founding Day Mega Pack](founding-day-mega-pack.md)** — the 22 jobs that went up at the Founding Day ceremony (Saturday 26 September).
 
 ## The Scout's Field Guide
 
 The in-world player manual, one page per chapter. Written in the Scout voice; commands and costs stay plain.
+These pages are generated from the same manuscript as the in-game book, so the two always match. Chapters 19-20 and `/guide` arrive with the next restart.
 
 1. [Where You've Landed](guide/01-where-youve-landed.md)
 2. [Marshmallows, the Camp's Money](guide/02-marshmallows-the-camps-money.md)
@@ -29,6 +30,8 @@ The in-world player manual, one page per chapter. Written in the Scout voice; co
 16. [Maps & Paintings](guide/16-maps-and-paintings.md)
 17. [Quick Command Card](guide/17-quick-command-card.md)
 18. [Quick Cost Sheet](guide/18-quick-cost-sheet.md)
+19. [Post & Mail](guide/19-post-and-mail.md)
+20. [Help & Staff](guide/20-help-and-staff.md)
 
 ## Quick links
 

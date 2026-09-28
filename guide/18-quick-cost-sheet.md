@@ -52,8 +52,6 @@ Any new civic cost needs an announced amendment.
 If this guide conflicts with a new notice, ask in chat.
 The constitution bans all hidden changes to prices.
 
-*You've got the whole camp in your pocket now, Scout. Bring this guide back to the campfire whenever you need it.*
-
 
 ---
 [← Field Guide index](../README.md#the-scouts-field-guide)

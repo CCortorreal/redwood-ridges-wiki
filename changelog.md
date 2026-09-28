@@ -3,6 +3,88 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
+## Staged for the next restart — RedwoodLens 0.15.0 + rr-guide (calliope `5721857` + the 2026-09-28 guide merge)
+
+Not live. Built and tested on the local Paper 26.2 fixture only.
+
+- **`/guide`** (alias `/fieldguide`, `rr.guide.use` default true): My Camp hub (civic rank from
+  LuckPerms `group.scout|ranger|pathfinder|scout_master`, Vault balance, town via Towny + charters,
+  mailbox and dead letters, jobs from RedwoodBoard's `contracts.json`), `find` (ranked search over
+  `guide-index.json`, 91 pages, generated from the manuscript), `trail` (First Trail; grants
+  `rr:trail_ready`, an advancement with no display so the rank engine never counts it), `near`
+  (armed places + BlueMap link, `guide.bluemap-url` / `guide.bluemap-map`), `costs` (stamp and
+  Death's toll from live config), `help` (to online staff and `essentials.helpop.receive`, 60 s
+  cooldown, `help.log`).
+- **Staff pages**: rank from `group.staff.helper|warden|admin` (never the civic `group.warden`) or
+  `rr.guide.staff.*`; 8 pages from `staff-guide.md`, each command marked held or not for the
+  viewer; case notes to `cases.log` and to Discord only via a registered `rr-report` route.
+- **rr-guide**: 20 chapters, 101 dialogs. Chapters 19 (Post & Mail) and 20 (Help & Staff) are new;
+  the wiki's audited additions (ruin runes, class abilities, `/qs size`, the rank table, ruin
+  reclaim 200 after 4 h, the Discord channels) are merged back into the manuscript. A command
+  coverage gate fails the build if a player command in our plugins has no guide page.
+- **Wiki guide pages are now generated** from the same manuscript (`field-guide-wiki.mjs`).
+- Tests: GuideTest 88; guide-integ 63/63 (fake players, real ShowDialog packets, all 91 index
+  pages resolve to registry dialogs); charters-integ 62/0 and post-office-integ 41/0 against 0.15.0.
+
+## Restart 10:45 CDT 2026-09-28 — RedwoodLens 0.14.1, RedwoodBoard 1.9.13, WorldGuard 7.0.19, rr-guide
+
+Done 42.6 s at 15:37:28Z. Boot: `town charters on (0 charters, 0 open petitions)`, Board tour armed
+and stacking self-test passed, FAWE found WorldGuard, 21 datapacks incl. rr-guide (79 dialogs),
+no errors from our plugins.
+
+- **Post office (Lens 0.13.0):** `/mailbox` binds a chest on your own plot or town land
+  (`MailboxClaims`, Towny), or an empty wilderness chest (`mailbox.allow-wilderness`, default
+  true). Postmaster counter (dropdown, then a 36-slot counter; `/rrlens post <name>` is the
+  Bedrock fallback); stamp `min(20, 1 + ceil(0.7 × slots))`; instant delivery; per-viewer
+  dead-letter chest (`deadletters.json`, read-only on a bad load). `/rrlens parcel` retired. The
+  Postmaster NPC ships disabled until staff place the post office.
+- **Town charters (Lens 0.14.0/0.14.1):** `/charter` petition / withdraw / vouch / approve / deny /
+  pitch / policy / kit / sweep; policies Manual, Passport, Vouch; offline approval through Towny's
+  `townAddResident`; 48 h reminder, 72 h lapse; welcome kit mailed through the post office with
+  the stamp from the town bank; `town-board` and `hall-of-towns` place verbs; `charters.json`
+  atomic with a read-only guard. Every `charters.*` switch defaults to the recommended answer.
+- **Console guard (Lens 0.12.5):** console commands pass one policy.
+- **RedwoodBoard 1.9.13:** `RankAnnouncer` listens to LuckPerms `NodeAddEvent`, so Ranger,
+  Pathfinder and Scout Master are announced server-wide however they were granted; re-adds are
+  silent; 10-minute flap gate.
+- **WorldGuard 7.0.19:** installed, inert until a region is defined.
+- No new backup (all 10 slots full); restore point 46428ceb (06:01 that morning).
+
+## Restart 18:58 CDT 2026-09-27 — rr-trim-registry replaces BF7 More Trim Materials
+
+BF7's tick function `new_trims:check_inventory_materials` ran `item modify ... set_components`
+on 97 materials, which **replaces** `custom_data` and wiped plugin data (EliteMobs'
+`elitemobs:custom_item_id` on repair scrap). Deleting BF7 outright would drop every item already
+marked with `provides_trim_material: new_trims:*` (81 stacks across 22 player saves). The new
+`rr-trim-registry.zip` keeps only BF7's 211 `trim_material` definitions: no functions, recipes,
+advancements or tag override. RedwoodBoard's own trim stacking (`stacking.tag-at-birth`,
+`restack`) is off in its config, since it wiped `custom_data` the same way. Boot: 21 packs
+enabled incl. `file/rr-trim-registry.zip`, no BF7, zero `new_trims` errors.
+
+## Restarts 12:15 and 12:32 CDT 2026-09-26 — RedwoodBoard 1.9.11, 1.9.12
+
+- **1.9.11:** `RankEngine` counted paid jobs (`payouts++`) against the 400 / 1,200 / 3,000 bars;
+  it now sums Marshmallows earned (OdometerTest). Before the restart, 35 pre-board `/paycontract`
+  pays were backfilled into `receipts.json` (61 → 96 rows, 10 players; `contract: paycontract`,
+  original timestamps); nobody promoted at boot (14-day floor). `/paycontract` is retired; `/tip`
+  replaces it.
+- **1.9.12:** tip reason **Other...** opens a Paper dialog text field (60 chars; control characters
+  and legacy colour codes stripped; blank = "no reason given"). TipTest 74.
+
+## Restart 10:46 CDT 2026-09-26 — RedwoodLens 0.12.4, RedwoodBoard 1.9.10, TimberZ removed
+
+- **Legendary Timber:** SuperEnchants' Timber moved Rare → Legendary (table + loot),
+  `timber.yml max_blocks 3000` (measured redwood schematics: 637–2,868 logs), sneaking takes one
+  log, per-log wear (`TimberWear`).
+- **SuperEnchants protection probe:** SE fires a `BlockBreakEvent` per extra block to check region
+  protection; Excavator wear and mining XP were treating the probes as real breaks. Recognised via
+  SE's `isCheckingProtection` (`SeProtectionProbe`).
+- **RedwoodBoard 1.9.10:** a wrong resource-pack nonce no longer burns the right one.
+- **TimberZ** jar removed (`toggleTimber: false` would have made it always on). Enchanted books
+  that carried its Timber keep everything else.
+- **Chat names:** Essentials `ops-name-color` `4` → `none`, so names follow the LuckPerms prefix
+  colour like the tab list.
+
 ## Restart 09:07 CDT 2026-09-26 — RedwoodBoard 1.9.9 (calliope `e234cf1`)
 
 Boot 14:07:17Z (Done 44.7 s); RedwoodBoard 1.9.9 enabled, tour armed (8 stops), stacking self-test

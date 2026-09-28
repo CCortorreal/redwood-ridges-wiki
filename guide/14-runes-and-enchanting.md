@@ -29,9 +29,8 @@ Runes you don't want can't be scrubbed at a grindstone the way vanilla enchants 
 
 ### Ruin Runes
 
-A second set of runes comes from the camp's dungeon structures and their librarians, not the
-enchanting table. A librarian in the right ruin sometimes has a secret trade for one of these;
-the same ruin's loot chests can roll them too.
+A second set of runes comes from the camp's dungeon structures and their librarians, not the enchanting table.
+A librarian in the right ruin sometimes has a secret trade for one of these; the same ruin's loot chests can roll them too.
 
 | Rune | What it does | Find it at |
 |---|---|---|
@@ -53,9 +52,8 @@ the same ruin's loot chests can roll them too.
 | Wax Wings | Your elytra takes less damage flying fast, almost none up high. | The End |
 | Wither Coated | Sword hits apply Wither; short and strong at high levels. | Nether keeps, Sealing Halls |
 
-These haven't been sorted into the Common/Uncommon/Rare/Legendary tiers above yet, so
-`/enchants` doesn't list them alongside the table runes. Hover a runed item to read what it
-does, or check this table.
+These haven't been sorted into the Common/Uncommon/Rare/Legendary tiers above yet, so `/enchants` doesn't list them alongside the table runes.
+Hover a runed item to read what it does, or check this table.
 
 
 ---
