@@ -2,6 +2,17 @@
 
 > Everything here is live unless its heading says otherwise. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
 
+## Next restart (staged, not live yet)
+
+- **Travel cooldowns are 10 minutes.** `/home`, `/spawn`, `/t spawn`, `/t outpost` and
+  `/n spawn` each wait 10 minutes between uses (the server already runs this; the guide said 15).
+- **Commands tell you their cooldown when you use them.** After `/home`, `/spawn` or a town
+  spawn takes you somewhere, chat says so: *"/home cooldown started: ready again in 10 min."*
+  Sending a report says when you can send another (5 minutes), and **Ask for Help** says when you
+  can ask again (1 minute) instead of just "give staff a minute".
+- **The in-game guide covers Town Jobs** (Earning, the Board): who can post with `/townjob`,
+  who can claim, who pays, and what happens to unpaid money.
+
 ## Monday afternoon (restart, 28 September)
 
 - **`/guide` opens My Camp**, your own page: your rank and what the next one needs, your wallet,

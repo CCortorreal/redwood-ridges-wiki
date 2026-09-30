@@ -3,6 +3,29 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
+## Next restart (staged) — RedwoodBoard 1.10.1, RedwoodLens 0.15.6, rr-guide
+
+Staged, not live. Built and unit-tested locally (RedwoodBoard: CooldownNoticeTest 25 checks plus
+the full suite; RedwoodLens: GuideTest 94 plus the full suite).
+
+- **Travel cooldowns (config, already live):** Essentials `command-cooldowns`
+  `^(essentials:)?e?home( .*)?` and `^(essentials:)?e?spawn( .*)?` = 600, and all 8 Towny
+  `*_spawn_cooldown_time` / `outpost_cooldown_time` = `'600'`. Running since the 2026-09-29 23:18
+  restart; this entry records it. The docs said 15 minutes until now.
+- **Cooldown notices (Board 1.10.1):** `cooldown-notices` in config.yml. A typed command that
+  matches an entry (case- and space-insensitive, word-prefix, longest match wins) is remembered at
+  MONITOR; if a COMMAND or PLUGIN teleport lands within `window-ticks` (100), the player gets
+  "<label> cooldown started: ready again in <duration>." one tick later. A refused command has no
+  teleport, so no notice. Holders of an entry's `bypass` permission get none. `seconds` is only
+  the text: keep it equal to the Essentials and Towny values.
+- **Report cooldown text (Board 1.10.1):** the sent confirmation adds "Report cooldown: you can
+  send another in 5 min." (`reports.cooldown-seconds`).
+- **Help cooldown text (Lens 0.15.6):** `/guide help` adds "/guide help cooldown started: ready
+  again in 1 min.", and a repeat inside the window says the time left
+  (`guide.help-cooldown-seconds`, default 60).
+- **rr-guide:** Chapter 3 gains Town Jobs (`/townjob`), which clears the dialog build's coverage
+  gate. Chapter 17's cooldown line says 10 minutes. The guide index ships in RedwoodLens 0.15.6.
+
 ## Restart 2026-09-28 (afternoon) — RedwoodLens 0.15.4, RedwoodBoard 1.9.14, XaeroTracker 1.3.1, rr-guide, client pack alpha.13
 
 Live. Built and tested on the local Paper 26.2 fixture before the restart. RedwoodLens 0.15.4 is

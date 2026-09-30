@@ -35,6 +35,16 @@ Money sent through `/pay` won't change your rank; only official payouts do.
 - **Completed Work:** `/contracts archive`
 - **Check Balance:** `/bal`
 
+### Town Jobs
+
+Towns can post their own jobs on a board at their town hall, once staff set one up.
+Mayors and assistants post with `/townjob` while standing at their town's board. The full purse leaves the town bank when the job goes up and is held until it's paid.
+Anyone can claim a town job, resident or not, except the town's own mayor.
+The mayor or an assistant checks the work and pays it; nobody pays their own claim.
+Town jobs pay Marshmallows but don't count toward your rank.
+`/townjob list` shows your town's open jobs. `/townjob cancel <id>` takes one down and refunds the town, unless someone holds a claim on it.
+A town can have 6 open jobs at once. Whatever is unpaid goes back to the town bank when a job expires (7 days unless the mayor picks otherwise).
+
 ### Why Prices Move
 
 Contracts follow what the world needs that week.

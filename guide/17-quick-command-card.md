@@ -69,7 +69,7 @@ Ranger, Pathfinder, and Scout Master raise your contract capacity and rune odds;
 Wardens are staff. Contract staff tools still require separate staff permission.
 `/tpa` and `/tpahere` are intentionally unavailable; use roads, town spawn, `/home`, or `/spawn`.
 Save your home spot with `/sethome` first; `/home` takes you back to it.
-`/home`, `/spawn` and `/t spawn` each have a 15-minute cooldown.
+`/home`, `/spawn` and `/t spawn` each have a 10-minute cooldown, and chat tells you when it starts.
 
 - **Return to Spawn:** `/spawn`
 - **Go Home:** `/home`
