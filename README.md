@@ -32,6 +32,7 @@ These pages are generated from the same manuscript as the in-game book, so the t
 18. [Quick Cost Sheet](guide/18-quick-cost-sheet.md)
 19. [Post & Mail](guide/19-post-and-mail.md)
 20. [Help & Staff](guide/20-help-and-staff.md)
+21. [The Reliquary & Writs](guide/21-the-reliquary-and-writs.md)
 
 ## Quick links
 

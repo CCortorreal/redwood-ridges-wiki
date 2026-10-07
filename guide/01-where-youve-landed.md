@@ -14,6 +14,17 @@ The camp grows as people add to it.
 - [Open Camp Discord](https://discord.gg/TqPYyJcdXF)
 - [Open BlueMap](http://104.204.220.59:8100)
 
+### A Forever World
+
+Redwood Ridges never resets. There are no map wipes, so what you build stays.
+The world grows instead: the border opens outward in rings as the camp funds the Temple of Mallow.
+
+### A Real Account
+
+You need a real Minecraft account: Java or Bedrock.
+Cracked clients can't connect; the server checks every login.
+If Java is out of reach, Bedrock works too, on a phone, a PC or a console.
+
 ### Your First Trail
 
 Start at the board instead of grinding alone.

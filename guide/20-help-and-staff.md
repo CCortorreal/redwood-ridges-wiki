@@ -40,10 +40,6 @@ Staff join through applications, which open when the camp needs more help.
 Watch the Discord announcements; when a window opens, use `/staff-apply` there.
 You'll want a couple of weeks on the server and the **Scout** rank first.
 
----
-
-*You've got the whole camp in your pocket now, Scout. Bring this guide back to the campfire whenever you need it.*
-
 
 ---
 [← Field Guide index](../README.md#the-scouts-field-guide)
