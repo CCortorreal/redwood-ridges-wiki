@@ -3,10 +3,12 @@
 > The plain-English version of what's new is [here](whats-new.md). This page is for anyone who
 > wants the version numbers and the mechanism, not just the effect. Newest first.
 
-## Next restart (staged) — RedwoodBoard 1.10.1, RedwoodLens 0.15.6, rr-guide
+## Restart 21:25 CDT 2026-10-01 — RedwoodBoard 1.10.2 (carries 1.10.1), RedwoodLens 0.15.7 (carries 0.15.6), rr-guide
 
-Staged, not live. Built and unit-tested locally (RedwoodBoard: CooldownNoticeTest 25 checks plus
-the full suite; RedwoodLens: GuideTest 94 plus the full suite).
+Live since the 2026-10-01 21:25 CDT restart (calliope `games/minecraft/CHANGELOG.md`, that window's entry).
+Built and unit-tested locally first (RedwoodBoard: CooldownNoticeTest 25 checks plus the full suite;
+RedwoodLens: GuideTest 94 plus the full suite). Later windows (barrel mailboxes 10/4, RedwoodLens 0.21.0
+onward) are not on this page yet; the calliope CHANGELOG has them.
 
 - **Travel cooldowns (config, already live):** Essentials `command-cooldowns`
   `^(essentials:)?e?home( .*)?` and `^(essentials:)?e?spawn( .*)?` = 600, and all 8 Towny

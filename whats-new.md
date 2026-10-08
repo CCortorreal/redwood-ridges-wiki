@@ -2,7 +2,10 @@
 
 > Everything here is live unless its heading says otherwise. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
 
-## Next restart (staged, not live yet)
+## Thursday evening (restart, 1 October)
+
+> This page stops at 1 October. Mail in barrels, shared mailboxes and auction mail went live on
+> 4 October: see [Post & Mail](guide/19-post-and-mail.md).
 
 - **Travel cooldowns are 10 minutes.** `/home`, `/spawn`, `/t spawn`, `/t outpost` and
   `/n spawn` each wait 10 minutes between uses (the server already runs this; the guide said 15).
