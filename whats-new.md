@@ -1,8 +1,36 @@
-# What's New — 6 October 2026
+# What's New — 8 October 2026
 
 > Everything here is live unless its heading says otherwise. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
 > Words we use: **marshmallows** (or mallows) are the server's money; **camp** is the area around spawn; **the board**
 > is the job board at spawn (`/contracts`).
+
+## Thursday 8 October (restart)
+
+- **Joining a town makes you a Scout.** Scout is the first rank. Before, only your first paid job gave it. Now
+  joining any town gives it too, and you see a line in chat when it happens. As a Scout you can hold 2 jobs from
+  the board at once, and you can found your own town. Already in a town as a Seedling? You get Scout the next
+  time you log in. To find a town: `/guide`, then **Find a Town**. See [Founding a Town](guide/04-founding-a-town.md).
+- **You come back at your bed.** Before, every death sent you to spawn, even if you slept in a bed. Now you come
+  back at your bed. With no bed, at your respawn anchor. With neither, at your first `/sethome`. With none of
+  those, at spawn. (This one went live at 11:35 AM, before the restart.)
+- **Job cards are easier to read.** Open a job from the board (`/contracts`): the pay, the crew size, the place,
+  the last day and who had the idea now each have their own line with an icon. Lists in a job (like "You must:")
+  show as a list. The last day reads like "Open until Sun, Nov 1".
+- **Old jobs leave the board on their last day.** A job that is past its last day and that nobody holds is taken
+  off the board. If you hold a job past its last day, it stays yours: you get a short reminder once a day.
+  Giving a job up in `/contracts` is free.
+- **Tips when you need them.** The server sends one short tip in chat the first time it helps: you die with no
+  home set, your first visit to the Nether or the End, and a few more. Each tip comes once. Type `/hints off` to
+  stop them, `/hints on` to get them back.
+- **The Camp Tour has new words.** Same stops and same pay. Shorter lines, and the last stop now tells you about
+  `/sethome`, towns, and where to ask for help.
+- **The player list is in rank order.** Hold Tab: staff first, then Scout Master, Pathfinder, Ranger, Scout,
+  Seedling.
+- **Town claims near a town's home.** A town can now claim land right next to another town's home chunk. A
+  brand-new town must still start at least 5 chunks away from any town's home chunk.
+- **Autosmelt gives XP now.** A furnace gives you XP when you smelt (raw iron, raw gold, cobblestone and so on).
+  Autosmelt now gives the same XP, as orbs where the block was, so Mending works too. The rune smelts whatever the
+  block drops (Fortune and Silk Touch still work), and its description now says so, instead of "ores only".
 
 ## Tuesday 6 October
 
@@ -355,7 +383,7 @@ Powerless titles that show what you've done. Auto-granted; nobody has to ask.
 | Rank | How you get it | Contracts at once |
 |---|---|---|
 | Seedling | You joined | 1 |
-| Scout | Your first paid contract / cabin | 2 |
+| Scout | Your first paid job, or joining a town | 2 |
 | Ranger | **Found a town** (instant), or 400 tracked payouts after 14 days here | 3 |
 | Pathfinder | 1,200 tracked payouts and you're rooted — mayor of a town with 2+ residents, or a resident for 30 days, or 40 contracts solo | 5 |
 | Scout Master | 3,000 tracked payouts, clean record, staff sign-off | 8 |

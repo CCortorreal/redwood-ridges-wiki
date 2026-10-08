@@ -5,8 +5,8 @@ A town protects shared land and holds a shared bank. You'll need a group to foun
 ### Scout Before Mayor
 
 Saving money alone won't let you found a town.
-Finish a listed contract or event job first.
-The official payout is what grants your **Scout** rank.
+Join a town, or finish one paid job from the board.
+Either one makes you a **Scout**.
 Grinding, playtime, and skill levels don't count toward Scout.
 Money sent through `/pay` doesn't count toward Scout either.
 Only players with Scout rank can use `/t new`.
@@ -30,7 +30,7 @@ Every town has a charter that says how newcomers join.
 Open **Find a Town**, read a town's charter, and petition to join.
 The mayor can say yes even while you're offline; a letter brings the answer.
 Some towns let a civic rank in at once, and some let two residents vouch for you.
-Seedlings can join towns too, but joining doesn't grant the Scout rank.
+Seedlings can join towns, and joining one makes you a **Scout**.
 A mayor can still invite you directly with `/t add`; accept with `/accept [Town]`.
 
 - **Find a Town:** `/charter towns`

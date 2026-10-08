@@ -35,7 +35,7 @@ The board keeps a lifetime count of the Marshmallows you've been paid for board 
 
 | Rank | Earned from contracts | Time on the Ridge | Also needs |
 |---|---:|---:|---|
-| **Scout** | your first paid job | — | — |
+| **Scout** | your first paid job, or joining a town | — | — |
 | **Ranger** | 400 | 14 days | — or skip both: found a town |
 | **Pathfinder** | 1,200 | 45 days | 40 advancements, and roots: 40 different contracts finished, 30 days as a town resident, or mayor of a town with 2 other residents |
 | **Scout Master** | 3,000 | 120 days | 80 advancements and a clean record, confirmed by staff |
