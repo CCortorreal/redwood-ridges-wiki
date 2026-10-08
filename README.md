@@ -3,7 +3,7 @@
 A small civilization growing out of a ranger camp in the pines. Minecraft (Java + Bedrock), Paper 26.2.
 
 - **Server:** `104.204.220.59:25565` · **Map:** http://104.204.220.59:8100 · **Discord:** https://discord.gg/TqPYyJcdXF
-- **[What's New — 28 September 2026](whats-new.md)** — `/guide` (My Camp, Ask the Guide, First Trail), other players on Xaero's maps (client pack alpha.13), waypoint buttons, rune lore that fits the screen, Discord rank roles; and from the 10:45 restart: mailboxes and parcels, town charters and the Hall of Towns, rank-up announcements.
+- **[What's New — 6 October 2026](whats-new.md)** — the world grew to 4,000 blocks wide (the Temple of Mallow), haul jobs and the Grailforge, barrel mailboxes and auction mail, the Dragon Night (Sat 10 Oct, 4 PM CDT) and the scaling dragon; earlier: `/guide` (My Camp, Ask the Guide, First Trail), other players on Xaero's maps (client pack alpha.13), waypoint buttons, rune lore that fits the screen, Discord rank roles; and from the 10:45 restart: mailboxes and parcels, town charters and the Hall of Towns, rank-up announcements.
 - **[Changelog](changelog.md)** — version numbers and mechanism, for anyone who wants the technical detail.
 - **[Founding Day Mega Pack](founding-day-mega-pack.md)** — the 22 jobs that went up at the Founding Day ceremony (Saturday 26 September).
 

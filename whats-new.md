@@ -1,11 +1,62 @@
-# What's New — 28 September 2026
+# What's New — 6 October 2026
 
 > Everything here is live unless its heading says otherwise. Numbers come from the server's own settings; if something doesn't match in-game, tell staff.
+> Words we use: **marshmallows** (or mallows) are the server's money; **camp** is the area around spawn; **the board**
+> is the job board at spawn (`/contracts`).
+
+## Tuesday 6 October
+
+- **The world grew.** At 1:12 PM CDT the camp finished paying the Temple of Mallow (750 marshmallows, given by
+  six players). The bell rang, and an hour later, at 2:12 PM, the red wall at the edge of the world moved out:
+  the world is now **4,000 blocks wide** (it was 3,000), and the Nether grew with it to **500 blocks wide**. The new
+  land was generated before the wall moved, so it's ready to explore.
+- **The next ring has started.** The Temple's goal is 750 marshmallows again. Pay it and the world widens by another
+  500 blocks. The Temple is about 260 blocks north of spawn (around x -333, z -2658). Right-click its altar to
+  give any amount from 5 up.
+- **Haul jobs.** A new kind of job on the board: bring a block the job asks for (stone, spruce logs, deepslate…)
+  and drop it into that job's chests. The board counts what you drop, and you're paid for what you bring (you need
+  at least 64 blocks to be paid). Your first drop puts you on the job. If you take blocks back out, they come off your count. The job
+  card says which chests and what you're paid.
+- **The Grailforge jobs are on the board.** The Grailforge is the camp's big group build, about 1,200 blocks
+  northwest of spawn (around x -1432, z -3032). Its haul jobs bring in the blocks it's built from. To see the plan,
+  open `/guide` and press **Plan: The Grailforge**.
+
+## Sunday 4 October (restart)
+
+- **Mailboxes are barrels.** Put a trapdoor on top: that's the flag. It pops up when mail arrives and drops when
+  you open the box. Chest mailboxes you already had keep working. See [Post & Mail](guide/19-post-and-mail.md).
+- **Shared mailboxes.** `/mailbox share <player>`, then they type `/mailbox join <you>` within 5 minutes.
+  `/mailbox unshare` stops sharing.
+- **Auction mail.** If you have a mailbox, a Buy-It-Now sale is collected for you right away: the money goes to your
+  balance (after tax) and a receipt lands in your mailbox. Unsold items come back to your mailbox when there's room.
+- **Autosmelt smelts what drops.** Stone gives stone, cobblestone gives stone, Silk Touch stone gives smooth stone,
+  and Fortune still gives bonus ores.
+- **Praying at Death's statue puts you in the middle of the block**, so you no longer get stuck in a wall at a grave.
+- **AFK works for everyone** (earlier that morning). After 5 minutes without moving you're marked AFK, quietly (no
+  chat message). AFK players don't count for sleeping, so one idle player no longer keeps the whole server from
+  skipping the night.
+
+## Friday 2 October
+
+- **The End is closed until the Dragon Night: Saturday 10 October, 4:00 PM CDT.** A countdown floats over every
+  End portal. Walk into a closed portal and it sets you back on the frame instead of dropping you in the lava
+  (ender pearls are handed back).
+- **The dragon scales to the fight.** While it's alive, its health is 200 plus 100 for every player fighting it,
+  and it gets tougher as more people join. It goes up right away and back down 90 seconds after people leave, and
+  it never heals from a change. The first dragon starts at the number of players online when the End opens. The
+  fight's extra reward is one dragon head for each player who fought.
+- **Grindstones clean up properly.** When a grindstone takes the last enchantment off an item, the item goes back
+  to plain and stacks again.
+
+## Thursday 1 October (late)
+
+- **The Temple of Mallow moves the world's edge.** When its goal is paid, the bell rings, Discord gets an alert,
+  and the server counts down one hour (titles, chat, a bar at the top of the screen) so everyone can get to the
+  edge. Then the wall moves out at 4 blocks a second. The first ring added 1,000 blocks of width; every ring after
+  adds 500. You can't give to the Temple while a countdown is running.
+- **Sneak + right-click never opens a place**, Death's statue or the Auctioneer's counter, so you can build on them.
 
 ## Thursday evening (restart, 1 October)
-
-> This page stops at 1 October. Mail in barrels, shared mailboxes and auction mail went live on
-> 4 October: see [Post & Mail](guide/19-post-and-mail.md).
 
 - **Travel cooldowns are 10 minutes.** `/home`, `/spawn`, `/t spawn`, `/t outpost` and
   `/n spawn` each wait 10 minutes between uses (the server already runs this; the guide said 15).
