@@ -6,6 +6,13 @@
 
 ## Thursday 8 October (restart)
 
+- **Dungeons pay marshmallows.** The first time you clear a dungeon from the Adventurer's Guild (`/ag`), at any
+  difficulty, you're paid: Catacombs Lair 10, Pirate Ship 20, Dark Cathedral, Vampire Manor, Steamworks and Beasts
+  Sanctuary 25 each, The Colosseum, The Airship and Goblin Kingdom 30 each, Yggdrasil and The Dark Spire 50 each.
+  Once per dungeon. Already cleared one? Bring a new player through their first clear of it, in the same run, and
+  you're paid again. Be inside from the start; joining at the boss pays nothing. It doesn't count toward any rank,
+  and Elite Coins still never turn into marshmallows. This is a rule change (Amendment 5): the camp had four ways to
+  make marshmallows, now it has five. See [The Adventurer's Guild](guide/15-the-adventurers-guild.md).
 - **Joining a town makes you a Scout.** Scout is the first rank. Before, only your first paid job gave it. Now
   joining any town gives it too, and you see a line in chat when it happens. As a Scout you can hold 2 jobs from
   the board at once, and you can found your own town. Already in a town as a Seedling? You get Scout the next
