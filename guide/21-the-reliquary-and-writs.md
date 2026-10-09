@@ -64,10 +64,6 @@ Lost your book? Press **A fresh Writ book** on the Writ for a new one.
 - **Hide Tracker:** `/writ hide`
 - **Show Tracker:** `/writ show`
 
----
-
-*You've got the whole camp in your pocket now, Scout. Bring this guide back to the campfire whenever you need it.*
-
 
 ---
 [← Field Guide index](../README.md#the-scouts-field-guide)

@@ -49,6 +49,7 @@ BlueMap and Discord both open in your regular browser.
 ### Guide, Mail and Help
 
 `/guide` opens **My Camp**, your own page: rank, wallet, town, mail and open jobs.
+`/rank` shows your climb to the next rank: what's done, what's left, and what it unlocks.
 `/guide find` searches this whole book, and `/guide help` reaches staff who are online.
 `/mailbox` sets or finds your mailbox; `/tour` opens the Camp Tour log.
 `/rreport` sends the Wardens a private report.

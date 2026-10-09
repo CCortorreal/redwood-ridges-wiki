@@ -31,8 +31,9 @@ Say what happened and where. You can send one report every few minutes.
 Staff are players who help run the camp, and their rank is separate from your civic rank.
 **Helpers** answer questions and pass reports up to the Wardens.
 **Wardens** can mute, kick, and roll back grief after they've looked at the evidence.
+If you can't reach your grave, a Warden can open it and hand your own things back to you.
 Carlos is the **Head of Moderation** and makes the final call on bans and appeals.
-Staff never hand out items, change claims, or touch anyone's money.
+Staff never hand out new items, change claims, or touch anyone's money.
 
 ### Joining Staff
 

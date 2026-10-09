@@ -19,7 +19,7 @@ These pages are generated from the same manuscript as the in-game book, so the t
 5. [Land, Claims & Taxes](guide/05-land-claims-and-taxes.md)
 6. [The Treeline](guide/06-the-treeline.md)
 7. [Lapsed Charters](guide/07-lapsed-charters.md)
-8. [Skills & Standing](guide/08-skills-and-standing.md)
+8. [Your Rank](guide/08-your-rank.md)
 9. [Staying Alive](guide/09-staying-alive.md)
 10. [Talking, Voice & Chat](guide/10-talking-voice-and-chat.md)
 11. [The Map](guide/11-the-map.md)
@@ -33,6 +33,7 @@ These pages are generated from the same manuscript as the in-game book, so the t
 19. [Post & Mail](guide/19-post-and-mail.md)
 20. [Help & Staff](guide/20-help-and-staff.md)
 21. [The Reliquary & Writs](guide/21-the-reliquary-and-writs.md)
+22. [Skills](guide/22-skills.md)
 
 ## Quick links
 

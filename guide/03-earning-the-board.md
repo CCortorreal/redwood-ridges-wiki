@@ -30,6 +30,7 @@ About two minutes after a job is fully paid, its book comes off the wall; `/cont
 Your first official payout makes you a **Scout**, the next rank after Seedling.
 Claiming you're done or sitting AFK won't pay.
 Money sent through `/pay` won't change your rank; only official payouts do.
+`/rank` shows how close you are to your next rank (Chapter 8).
 
 - **Open the Board:** `/contracts`
 - **Completed Work:** `/contracts archive`
