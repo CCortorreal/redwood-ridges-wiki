@@ -4,18 +4,18 @@ The **treeline** is the edge of known land. The whole camp pushes it out togethe
 
 ### The Edge of the Known World
 
-The world is **4,000 blocks wide** right now, a **2,000-block radius** around spawn.
+The world is **4,500† blocks wide** right now, a **2,250†-block radius** around spawn.
 The red wall is the treeline.
 The land past it is already generated and waiting.
 Only the Temple opens it.
-The Nether border follows the overworld at 1:8, so the Nether is **500 blocks wide**.
+The Nether border follows the overworld at 1:8, so the Nether is **562.5† blocks wide**.
 
 - [See the Current World](http://104.204.220.59:8100)
 
 ### The Temple of Mallow
 
 Right-click the Temple's altar to make an offering: 5, 25, 100, or any amount from 5 up.
-Stand near the Temple and a bar shows how close the camp is to **750 Marshmallows**.
+Stand near the Temple and a bar shows how close the camp is to **1,500† Marshmallows**.
 Discord hears each time the Temple passes a quarter of the way.
 Every Marshmallow counts the same, whoever gives it.
 An offering isn't contract pay, so it doesn't count toward your rank.
@@ -39,6 +39,8 @@ Share the first ruins, dungeons and landmarks your crew finds.
 Don't glitch through the wall before it moves.
 Don't build against the wall while it's moving.
 Everyone gets the new land, whether they gave or not.
+
+<sub>† As of 9 October 2026. These numbers change as the camp plays; in game, this page (and `/guide temple`) shows them live.</sub>
 
 
 ---
