@@ -34,6 +34,7 @@ These pages are generated from the same manuscript as the in-game book, so the t
 20. [Help & Staff](guide/20-help-and-staff.md)
 21. [The Reliquary & Writs](guide/21-the-reliquary-and-writs.md)
 22. [Skills](guide/22-skills.md)
+23. [Questions Campers Ask](guide/23-questions-campers-ask.md)
 
 ## Quick links
 

@@ -54,7 +54,7 @@ Your Discord rank role follows your in-game rank, if your Discord account is lin
 
 Playtime and your Marshmallow balance won't change your rank.
 Money sent through `/pay` won't move you up, and neither will skills.
-Town jobs, dungeon pay and Treeline offerings pay out, but they don't count toward rank.
+Town jobs and dungeon pay don't count toward rank, and neither do Treeline offerings (that's money you give).
 Only paid board work counts, and the camp confirms the top rank by hand.
 
 

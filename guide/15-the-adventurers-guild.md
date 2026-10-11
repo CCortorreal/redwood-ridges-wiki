@@ -6,7 +6,7 @@
 
 Guild quests and guild shops use **Elite Coins**, not Marshmallows.
 Elite Coins buy guild ranks, guild gear, and arena entries. They never buy towns or land.
-Talk to Casus at the guild for the welcome chain; the second quest pays 100 coins.
+Talk to Casus at the guild for the welcome chain: the first quest pays 50 coins and the second 100.
 Finish a quest, then turn it in. Nothing pays until you do.
 
 - **Go to the Guild:** `/ag`
@@ -26,12 +26,15 @@ The first time you clear a guild dungeon on the list, at any difficulty, you're 
 Catacombs Lair pays 10. Pirate Ship pays 20.
 Dark Cathedral, Vampire Manor, Steamworks and Beasts Sanctuary pay 25 each.
 The Colosseum, The Airship and Goblin Kingdom pay 30 each. Yggdrasil and The Dark Spire pay 50 each.
-Already cleared one? Bring a new player through their first clear of it, in the same run, and you're paid again.
+Already cleared one? Bring a new player through their first clear of it, in the same run, and you're paid the full amount again, once for each new player.
 Be inside from the start until the dungeon is cleared. Joining at the boss pays nothing.
+Story Mode dungeons and sanctums, Primis and Oasis pay nothing.
 Dungeon pay doesn't count toward Scout or any rank. Elite Coins still never turn into Marshmallows.
 
 ### Class Abilities (the F key)
 
+You need a class first: the guild's third welcome quest makes you an Adventurer.
+Bedrock players can't use these abilities.
 F swaps your hands, like always, until you turn class controls on.
 **Sneak and double-tap F** to turn them on or off. Chat tells you which.
 While they're on: **F, F** is your mobility move, **F + left-click** your signature, **F + right-click** your utility.

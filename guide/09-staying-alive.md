@@ -5,7 +5,10 @@ Every death also costs **1 Marshmallow**, taken automatically (it shows in `/rec
 
 ### Your Grave
 
-Your grave keeps the items you drop when you die.
+Your grave keeps the items you drop when you die. Only you can open it.
+When you respawn you get a compass that points to it, and chat gives its coordinates.
+A grave lasts **7 days**; after that the items are gone.
+You can have up to 18 graves at once. A new one replaces your oldest.
 Read the death message before you start heading back.
 Walk back to where you died to recover your items, or ask Death for a ride (below).
 Bring a friend if the route is dangerous.
@@ -13,7 +16,7 @@ Mobs and hazards can still surround your grave.
 
 ### Death's Statue
 
-Death's statue stands in the graveyard. Right-click it to see your graves, then press **Pray** to be carried straight to one.
+Death's statue stands in the graveyard at (-431, 148, -2492). Right-click it to see your graves, then press **Pray** to be carried straight to one.
 The ride has a toll: **25 Marshmallows** the first time, doubling each time you pray (50, 100, 200, 400, capped at 800).
 Dying doesn't raise it; only praying does.
 Go 24 hours without praying and the toll resets to 25.
@@ -24,6 +27,7 @@ The grave menu's own teleport is switched off, so the statue is the only shortcu
 
 Town claims protect resident builds from griefing and mob damage.
 Anyone may build and gather on unclaimed land.
+Players can't hurt each other: PvP is off across the whole server.
 The deep dark sits beneath the spawn region, so tread carefully.
 Explore structures and wild terrain with a crew when possible.
 Slow down when a fight looks custom or unusual.

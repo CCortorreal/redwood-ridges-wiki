@@ -20,7 +20,7 @@ These are the launch costs, but a newer public amendment replaces any older pric
 | Outpost | 250 | detached claim |
 | Town upkeep | 5/day | from the town bank |
 | Reclaim a ruined town | 200 | `/t reclaim`, residents only, after 4 hours |
-| Found a nation | not open | later-season gate |
+| Found a nation | 5,000 | mayors only; the nation then pays 100/day upkeep from its own bank (Amendment 7) |
 
 - **Fund Town Bank:** `/t deposit`
 - **Buy Bonus Claims:** `/town buy bonus`
@@ -31,6 +31,7 @@ These are the launch costs, but a newer public amendment replaces any older pric
 |---|---:|---|
 | Stall lease | 40 | once, to the camp bank; staff assign the tile |
 | Stall sales | 0% | the camp takes no cut |
+| Change a shop's price | 50 | each `/qs price` after the shop is made; making a shop and `/qs size` are free |
 | Auction fee | 1% | of each sale, retired for good |
 
 - **Open Auction House:** `/ah`

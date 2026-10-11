@@ -6,9 +6,17 @@ Use nearby voice to hang out, and use text when the camp needs a record.
 
 Simple Voice Chat runs on the Redwood Ridges server.
 The camp's modpack includes the client mod you need.
-Nearby players sound close, then fade as you move apart.
+Nearby players sound close, then fade as you move apart. Voices carry 48 blocks; a whisper carries 24.
+You can make or join a voice group from the voice chat menu.
+Voice chat is a Java mod, so Bedrock players can't use it.
 You never need voice chat to claim a contract.
 Put claims and payout splits in text so everyone can check them.
+
+### Private Messages
+
+`/msg <name> <message>` sends one player a private message.
+`/r <message>` answers the last person who messaged you.
+`/togglepm` turns private messages off, and on again.
 
 ### Camp Discord
 
@@ -18,7 +26,7 @@ The camp Discord holds official notices and offline plans.
 `#the-world` keeps a card for every town and nation: mayor, residents, open or closed.
 `#auction-house` has one post per item at the Auctioneer, marked Sold or Expired as it goes. Reply to ask the seller; buying happens in-game.
 `#server-status` shows server uptime and the current player count.
-Union Rep provides help, map, and group commands.
+Union Rep, the camp's Discord bot, answers `/help`, `/map` (a map of the Discord's channels, not the world), `/lfg` (find a group), `/world`, `/contracts` and `/apply`.
 Your Discord rank role (Seedling up to Scout Master) follows your in-game rank, if your Discord account is linked through `/apply`.
 If your role looks wrong, ask staff to check your link.
 

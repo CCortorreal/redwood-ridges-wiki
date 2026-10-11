@@ -19,7 +19,7 @@ Villagers' trade offers show the same rune lore, so you know what you're buying.
 
 Every table roll gives you one rune for sure.
 Your civic rank sets the chance of a **second** rune: Seedling 25%, Scout 35%, Ranger 45%, Pathfinder 55%, Scout Master 60%.
-Enchant with another player standing within ten blocks and the chance rises another 10%.
+Enchant with another player standing within 10 blocks and the chance rises another 10%.
 Nothing pushes the odds past 70%. Enchanting is better done at camp than alone.
 Rank buys you more runes, not stronger ones: a Seedling's Timber is the same Timber as a Scout Master's.
 A plain book works at the table too: it can roll any rune, not just ones for a tool. Keep it, sell it, or put it on your gear with an anvil.
@@ -27,10 +27,12 @@ A plain book works at the table too: it can roll any rune, not just ones for a t
 ### Runes in the Wild
 
 Villagers sometimes offer runed gear; so does loot in the world.
-**Excavator** digs a cube at once, and every extra block wears the tool like a normal swing.
+**Excavator** digs a cube at once: 3×3×3 at level I, 5×5×5 at II, 7×7×7 at III. Sneak to dig a single block.
+Every extra block wears the tool like a normal swing.
+Excavator and Timber only roll on a full level-30 table.
 **Timber** is a Legendary axe rune from the table or world loot. One chop fells the whole tree, a full redwood included.
 Every log it fells wears the axe like a normal chop, so bring Unbreaking. Sneak to take a single log and leave your cabin standing.
-Runes you don't want can't be scrubbed at a grindstone the way vanilla enchants can. Trade the item instead.
+A grindstone takes runes off along with vanilla enchants, so you can scrub a rune you don't want.
 
 ### Ruin Runes
 
@@ -43,7 +45,7 @@ A librarian in the right ruin sometimes has a secret trade for one of these; the
 | Antidote | Shrugs off poison and wither damage; both burn off you faster. | Toxic Lairs |
 | Curse of Conductivity | A curse: can call lightning down on you in a storm. | A witch hut's librarian |
 | Ghasted | Your crossbow fires an actual fireball instead of a bolt. | Sealing Halls |
-| Gravity | Hits pull the target in instead of knocking it back. | The End |
+| Gravity (ruin rune) | Hits pull the target in instead of knocking it back. | The End |
 | Hydro Veil | On a mount harness: no fire buildup, no explosion knockback, slow healing. | Nether keeps, Sealing Halls |
 | Illagers Bane | Extra melee damage against illagers. | Illager ruins and outposts |
 | Tri-Shot | Your bow fires three arrows at once. | Toxic Lairs |

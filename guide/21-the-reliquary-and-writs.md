@@ -7,7 +7,7 @@ Some grails can't be bought. You earn them, one Writ at a time.
 A **Reliquary** is a pedestal with a grail turning slowly above it.
 The parts that grail needs float in a ring around it.
 Each grail has its own Reliquary, and staff set them up.
-Right now there are two: the **Paranoia Helm** and **Uno Reverse**.
+The first two, the **Paranoia Helm** and **Uno Reverse**, go in when the Grailforge is built.
 Walk up close and a count floats over each part.
 Parts you've handed in light up. The rest stay dark.
 
@@ -24,7 +24,7 @@ Away from any Reliquary, `/writ` shows the Writs you've taken up.
 
 Press **Read the terms** to see the deal before you agree to anything:
 - What you hand in is kept. It never comes back.
-- Only a few of each grail will ever exist. The first one forged gets #1.
+- Only 5 of each grail will ever exist, and the Writ closes when all 5 are forged. The first one forged gets #1.
 - Each player can forge one of each grail.
 - Your name goes into the grail's history, and the whole camp hears about it.
 
@@ -43,7 +43,7 @@ Each part flies to its spot on the ring and lights up.
 
 When every part is in, you get the **Unfinished** piece. It only works for you.
 It starts out weak and gets stronger as you prove it.
-The Writ tells you what proving takes, and your tracker keeps count.
+The Writ tells you what proving takes, and your tracker keeps count. For the Paranoia Helm it's 200 hostile mobs; for Uno Reverse, 100 shots blocked.
 Lost it? Go back to the Reliquary and press **Recast**.
 You get a new one, and the old copy stops working.
 

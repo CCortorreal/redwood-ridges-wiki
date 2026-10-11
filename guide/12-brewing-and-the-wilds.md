@@ -20,39 +20,42 @@ Timing decides quality. Too early or too late and the bottle says so.
 ### Distilling and Aging
 
 **Distill:** put the bottles in a brewing stand with glowstone dust on top.
-The dust is a filter and isn't used up. Each run takes about a minute.
+The dust is a filter and isn't used up. Each run takes 30 to 85 seconds, depending on the drink.
 Run it exactly as many times as the recipe asks. Extra runs spoil it.
 
 **Age:** a plain vanilla barrel works and holds six bottles.
 One year of aging is twenty real minutes. Some drinks care which wood the barrel is.
-A hand-built barrel is eight matching stairs in a ring with a sign that says **Barrel** on its first line.
-The big one is eighteen planks, sixteen stairs and five fences, same sign.
+A small hand-built barrel is a 2×2 block, two high, made of eight stairs of one wood (the bottom four upside down), with a sign on the front that says **Barrel**.
+The big one is 4 long and 3×3 across: sixteen stairs on the corners and eighteen planks, hollow in the middle, all one wood.
+One fence on the front is the tap, with the **Barrel** sign beside it. More fences underneath as legs are optional.
+Mixed wood won't make a barrel.
 
 Drunk campers slur in chat, stumble, and may be sick.
-Bread and milk sober you up. Sleep it off before you log out or the door won't open.
+Bread and milk sober you up. Log out very drunk and the server can refuse your next login for a while, so sleep it off first.
 
 ### What to Brew
 
 Cook is minutes in the cauldron. Distill is brewing-stand runs. Age is barrel years.
 
-| Drink | Ingredients | Cook · Distill · Age |
-|---|---|---|
-| Hot Chocolate | 3 cookies | 2 · 0 · 0 |
-| Coffee | 12 cocoa beans, 2 milk | 2 · 0 · 0 · sobers you |
-| Potato Soup | 5 potatoes, 3 short grass | 3 · 0 · 0 |
-| Wheatbeer | 3 wheat | 8 · 0 · 2 in birch |
-| Beer | 6 wheat | 8 · 0 · 3 any wood |
-| Mead | 6 sugar cane | 3 · 0 · 4 in oak |
-| Apple Cider | 14 apples | 7 · 0 · 3 any wood |
-| Red Wine | 5 sweet berries | 5 · 0 · 20 any wood |
-| Eggnog | 5 eggs, 2 sugar, 1 milk | 2 · 0 · 3 |
-| Vodka | 10 potatoes | 15 · 3 · 0 |
-| Rum | 18 sugar cane | 6 · 2 · 14 in oak |
-| Whiskey | 10 wheat | 10 · 2 · 18 in spruce |
-| Tequila | 8 cactus | 15 · 2 · 12 in birch |
-| Absinthe | 15 short grass | 3 · 6 · 0 · poison |
+| Drink | Ingredients | Cook · Distill · Age | Effect |
+|---|---|---|---|
+| Hot Chocolate | 3 cookies | 2 · 0 · 0 | Haste |
+| Coffee | 12 cocoa beans, 2 milk | 2 · 0 · 0 | Regeneration, Speed; sobers you |
+| Potato Soup | 5 potatoes, 3 short grass | 3 · 0 · 0 | Instant Health |
+| Wheatbeer | 3 wheat | 8 · 0 · 2 in birch | — |
+| Beer | 6 wheat | 8 · 0 · 3 any wood | — |
+| Mead | 6 sugar cane | 3 · 0 · 4 in oak | — |
+| Apple Cider | 14 apples | 7 · 0 · 3 any wood | — |
+| Red Wine | 5 sweet berries | 5 · 0 · 20 any wood | — |
+| Eggnog | 5 eggs, 2 sugar, 1 milk | 2 · 0 · 3 | — |
+| Vodka | 10 potatoes | 15 · 3 · 0 | Weakness, Poison |
+| Rum | 18 sugar cane | 6 · 2 · 14 in oak | Fire Resistance |
+| Whiskey | 10 wheat | 10 · 2 · 18 in spruce | — |
+| Tequila | 8 cactus | 15 · 2 · 12 in birch | — |
+| Absinthe | 15 short grass | 3 · 6 · 0 | Poison |
 
-Harder drinks punish sloppy timing. Start with cocoa, beer, or mead.
+Every drink with alcohol also makes you drunk. Harder drinks punish sloppy timing. Start with hot chocolate, beer, or mead.
+These are the easy ones. The stills know about ten more, such as Darkbeer, Apple Mead, Gin and Iced Coffee: trade recipes with other campers.
 
 ### Structures First
 
@@ -71,7 +74,7 @@ EliteMobs, RoseLoot, and SuperEnchants are loaded and running.
 Their balance and interactions may change during alpha.
 Rare gear should reward players who explore the world.
 The system isn't meant to reward AFK farming.
-Report raw item IDs, broken anvils, or noisy effects.
+Report raw item IDs, broken anvils, or noisy effects with `/rreport` or in `#campfire`.
 
 ### Small Things That Work Here
 

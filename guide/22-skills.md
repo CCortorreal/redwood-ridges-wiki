@@ -2,26 +2,23 @@
 
 Skills track what you practice. They're separate from your rank.
 
-### Quiet Skills
+### Your Skills
 
 Chopping wood raises Foraging; mining ore raises Mining.
 Use `/skills` whenever you want to check your levels.
-The interface stays quiet and out of your way.
-Your skill progress builds over time without constant pop-ups.
+When you earn skill XP, a bar at the top of your screen shows your progress for a moment.
+There are 11 skills, and each goes up to level 100.
 
 - **Open Skills:** `/skills`
 
 ### A Redwood Milestone
 
 **Treecapitator** is the main redwood ability in Foraging.
-It's designed to unlock around Foraging level 6.
-It lets you fell an entire redwood at once.
-Treecapitator makes gathering large amounts of wood much faster.
+It unlocks at Foraging level 6.
+Hold an axe and right-click to ready it, then break a log.
+While it's active, each chop fells up to about 125 spruce logs (100 to 220 for other woods), so a giant redwood takes several chops.
+It lasts a few seconds at first and longer as it levels, then takes a little over 3 minutes to recharge. It costs 20 mana.
 Only use it where tree felling is allowed.
-
----
-
-*You've got the whole camp in your pocket now, Scout. Bring this guide back to the campfire whenever you need it.*
 
 
 ---

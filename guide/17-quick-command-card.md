@@ -30,12 +30,12 @@ Commands needing details open in chat for you to finish.
 
 ### Trade and Craft
 
-The auction house is the Auctioneer at spawn (`/ah` only works at the market); the rune guide is a menu; the guild is a portal.
+The auction house is the Auctioneer at spawn (`/ah` works within 24 blocks of one); the rune guide is a menu; the guild is a portal.
 
 - **Auction House:** `/ah`
 - **Rune Guide:** `/enchants`
 - **Adventurer's Guild:** `/ag`
-- **Paint a Map:** `/map edit`
+- **Map Help:** `/map help`
 
 ### You and the Camp
 
@@ -64,13 +64,14 @@ BlueMap and Discord both open in your regular browser.
 ### Commands by Rank
 
 Every rank can use `/spawn`, `/home`, `/bal`, `/pay`, `/receipts`, `/contracts`, `/enchants`, `/skills`, `/ah` (at the Auctioneer), and voice chat.
-Seedlings may accept town invitations and use resident commands after joining.
+Seedlings can accept a town invitation, and joining a town makes you a Scout.
 Scouts add `/t new`, and every higher civic rank inherits that permission.
-Ranger, Pathfinder, and Scout Master raise your contract capacity and rune odds; they don't make you server staff.
+Each rank from Scout up raises how many board jobs you can hold and your second-rune odds (Chapter 8). No rank makes you staff.
 Wardens are staff. Contract staff tools still require separate staff permission.
 `/tpa` and `/tpahere` are intentionally unavailable; use roads, town spawn, `/home`, or `/spawn`.
 Save your home spot with `/sethome` first; `/home` takes you back to it.
 `/home`, `/spawn` and `/t spawn` each have a 10-minute cooldown, and chat tells you when it starts.
+Also handy: `/homes` lists your homes, `/baltop` shows the richest campers, `/msg` and `/r` send private messages, `/guide near` lists places near you, `/guide costs` opens the cost sheet, and `/enchants how` explains runes.
 
 - **Return to Spawn:** `/spawn`
 - **Go Home:** `/home`

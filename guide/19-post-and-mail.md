@@ -7,7 +7,7 @@ Letters are free and instant. Parcels carry a small stamp and land straight in y
 Mailboxes are **barrels**. Put a trapdoor on top: that's the flag.
 Stand on the barrel at your own place and type `/mailbox`.
 That barrel is now your mailbox, and only you can open it.
-It has to sit on a plot you own or on your own town's land.
+It has to sit on a plot you own, on your own town's land, or out in the wild (see Homestead Mailboxes).
 When mail lands, the flag pops up. Open the box and it drops again.
 Run `/mailbox` on another barrel to move it; `/mailbox clear` removes it.
 With no barrel under you, `/mailbox` tells you where yours is.
@@ -36,6 +36,9 @@ When a listing ends unsold, the item comes back to your mailbox.
 Either way the auction slot frees up at once. If your mailbox is full, the item waits in the Auction House under My Auctions.
 
 ### Sending a Parcel
+
+**Not open yet.** The post office is built, but the Postmaster isn't at the counter yet. The camp will announce when parcels open; here's how it will work.
+You can only send a parcel to a player who has set a mailbox.
 
 Go to the post office and right-click the **Postmaster**.
 The post office shows under **Nearby Places** in `/guide` once staff have opened it.

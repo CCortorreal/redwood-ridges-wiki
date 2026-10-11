@@ -7,7 +7,8 @@ Welcome to **Redwood Ridges**, a small civilization growing out of a ranger camp
 You start at the campground as a **Seedling**, the rank given to every new player.
 Everyone here passed the server's whitelist before joining.
 The campfire is where people hang out and make plans.
-The ranger station holds the board, where you pick paid jobs.
+The board, where you pick paid jobs, is the wall of framed books just west of spawn.
+The Ranger Station is a separate building up the hill (-377, 131, -2452).
 Players built every cabin, path, and dock you see.
 The camp grows as people add to it.
 
@@ -39,17 +40,27 @@ New players start the Camp Tour on their first join.
 A compass bar at the top of your screen points to the next stop.
 Walk into each stop to tick it off; the stops pay **18 Marshmallows** in all.
 `/tour` opens your tour log, and `/tour track` hides or shows the compass.
-The tour doesn't make you a Scout; a paid board job does.
+The tour doesn't make you a Scout; a paid board job or joining a town does.
+`/tour skip` ends the tour early, and you give up any tour pay you haven't collected.
 
 - **Tour Log:** `/tour`
 - **Show or Hide Compass:** `/tour track`
+
+### Five First Steps
+
+`/guide trail` shows five first steps and ticks them off as you go:
+open the guide, join a town, become a Scout, set a home with `/sethome`, and set a mailbox with `/mailbox`.
+`/guide temple` shows the Temple's progress bar from anywhere (Chapter 6).
+
+- **First Steps:** `/guide trail`
+- **Temple Progress:** `/guide temple`
 
 ### The Light-Touch Rule
 
 Ranger-camp language adds flavor; you don't need to memorize it.
 Costs and commands always stay in plain English.
 If a name feels too formal, shorten it in chat.
-**The board** means the paid job list at the ranger station.
+**The board** means the paid job wall just west of spawn.
 **The treeline** means the current edge of the open map.
 
 

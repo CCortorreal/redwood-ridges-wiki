@@ -23,10 +23,11 @@ Alt accounts don't qualify for another starter grant.
 
 ### How Money Enters
 
-Money enters the server through these four approved sources:
+Money enters the server through these five approved sources:
 - a one-time starter grant;
 - verified public-works contracts;
 - fixed prizes from published events;
+- first clears of listed dungeons (Chapter 15);
 - voting grants after public launch.
 Closed alpha doesn't include any voting grants yet.
 Unclaimed contract money never gets added to the economy.

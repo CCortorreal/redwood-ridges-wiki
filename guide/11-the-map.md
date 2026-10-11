@@ -14,7 +14,7 @@ You still need to check the trail in game.
 
 ### The Local Picture
 
-Xaero's minimap is included in your client pack.
+Xaero's minimap is included in your client pack. It's a Java mod; Bedrock players use BlueMap and `/towny map`.
 Save waypoints for homes and worksites you want to find again.
 Use `/towny map` to see claim cells around you.
 The treeline marks the current limit for exploration.
