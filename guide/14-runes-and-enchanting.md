@@ -22,6 +22,7 @@ Your civic rank sets the chance of a **second** rune: Seedling 25%, Scout 35%, R
 Enchant with another player standing within ten blocks and the chance rises another 10%.
 Nothing pushes the odds past 70%. Enchanting is better done at camp than alone.
 Rank buys you more runes, not stronger ones: a Seedling's Timber is the same Timber as a Scout Master's.
+A plain book works at the table too: it can roll any rune, not just ones for a tool. Keep it, sell it, or put it on your gear with an anvil.
 
 ### Runes in the Wild
 
@@ -58,6 +59,29 @@ A librarian in the right ruin sometimes has a secret trade for one of these; the
 
 These haven't been sorted into the Common/Uncommon/Rare/Legendary tiers above yet, so `/enchants` doesn't list them alongside the table runes.
 Hover a runed item to read what it does, or check this table.
+
+### Armor Trims
+
+A trim on your armor does more than look good: each trimmed piece gives a bonus while you wear it.
+The bonus comes from the trim's material, and every trimmed piece adds its own, so a full set of four gives four times as much.
+Hover a trimmed piece and its lore says what the trim does.
+
+| Trim material | Each piece gives |
+|---|---|
+| Emerald | Hero of the Village +1 level: cheaper villager trades. A full set is Hero IV. |
+| Lapis | +25% XP from orbs. A full set doubles your XP. |
+| Iron | +7.5% attack speed and +5% attack damage |
+| Diamond | +1.5 armor and +0.5 armor toughness |
+| Gold | +10% mining speed |
+| Redstone | +5% walking speed and +15% sneaking speed |
+| Quartz | -15% fall damage and 1 more block before a fall hurts. A full set roughly halves fall damage. |
+| Netherite | 10% less time on fire |
+| Resin | +15% knockback resistance |
+| Copper | +0.75 blocks of reach |
+| Amethyst | +0.5 Luck: better fishing and loot rolls |
+
+Only these eleven materials do anything. The other trim colors, glowing ones included, are for looks.
+Lapis counts for whoever is closest when the XP appears, so a friend in lapis armor right next to you shares the bonus.
 
 
 ---
