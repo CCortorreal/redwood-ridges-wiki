@@ -40,8 +40,8 @@ These are the launch costs, but a newer public amendment replaces any older pric
 | Action | Marshmallows | Note |
 |---|---:|---|
 | Any death | 1 | taken automatically, every death |
-| Pray at Death's statue | 25 | first death; doubles per death in a streak, cap 800 |
-| Streak reset | 0 | 24 hours without dying |
+| Pray at Death's statue | 25 | first prayer; doubles each time you pray, cap 800 |
+| Toll reset | 0 | 24 hours without praying |
 | Walk to your grave | 0 | always free |
 
 ### Announced Costs

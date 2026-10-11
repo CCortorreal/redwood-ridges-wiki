@@ -14,8 +14,9 @@ Mobs and hazards can still surround your grave.
 ### Death's Statue
 
 Death's statue stands in the graveyard. Right-click it to see your graves, then press **Pray** to be carried straight to one.
-The ride has a toll: **25 Marshmallows** for your first death, doubling each death in a streak (50, 100, 200, 400, capped at 800).
-Go 24 hours without dying and the streak resets to 25.
+The ride has a toll: **25 Marshmallows** the first time, doubling each time you pray (50, 100, 200, 400, capped at 800).
+Dying doesn't raise it; only praying does.
+Go 24 hours without praying and the toll resets to 25.
 No Marshmallows, no ride; the walk is always free.
 The grave menu's own teleport is switched off, so the statue is the only shortcut.
 
