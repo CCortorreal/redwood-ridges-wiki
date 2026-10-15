@@ -28,7 +28,8 @@ An offering isn't contract pay, so it doesn't count toward your rank.
 The bell rings and Discord gets the news straight away.
 The wall moves out **60 minutes** later, so everyone has time to get to the edge.
 Staff can hold a paid push for a big event night. If they do, the bell still rings and the date is announced.
-The first ring widened the world by 1,000 blocks. Each ring after that adds 500.
+The world grows in steps. Each ring opens it to the next width: 6,000 → 7,500 → 10,000 → 12,500 blocks wide, then 2,500 more for each ring after that.
+Each goal is priced by the new land it opens, about 100 Marshmallows per square kilometre. `/guide temple` shows the next ring.
 The Nether grows with it.
 
 ### The Push and the Rush
