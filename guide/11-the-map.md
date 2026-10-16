@@ -33,6 +33,19 @@ A charter card for a town you're away from has **Waypoint to** that town's spawn
 - **Nearby Places:** `/guide near`
 - **Hide or Show Me:** `/xt toggleTracked`
 
+### Ships Between Ports
+
+Ships carry you between ports. The first port is the Shipyard.
+Ring a ship's bell in a port (right-click it; on phone, tap it). The first time, that port is added to your list.
+Then pick where to go. You can only sail to a port you have rung a bell at yourself, plus the home port.
+Everyone standing within 8 blocks of the bell sails with you, and you pay every fare.
+A fare is 5 Marshmallows plus 1 for every 100 blocks, 40 at most.
+The ship leaves 10 seconds after you pick. Get off your horse or boat first, or it leaves without you.
+Don't want to go? Click **[Stay ashore]** in chat, or type `/sail ashore`. If the one who rang says it, the trip is off.
+`/sail` beside a ship opens the same menu.
+
+- **Stay Ashore:** `/sail ashore`
+
 
 ---
 [← Field Guide index](../README.md#the-scouts-field-guide)

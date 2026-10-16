@@ -56,6 +56,17 @@ Town jobs pay Marshmallows but don't count toward your rank.
 A town can have 6 open jobs at once. Whatever is unpaid goes back to the town bank when a job expires (7 days unless the mayor picks otherwise, 14 at most).
 Scouts Honor and Sculk City have boards today; ask staff to set one up at your town hall.
 
+### The Collection Log (the Museum)
+
+The museum's walls are the camp's shared collection. Each empty frame shows a dark shadow of the item it wants.
+Bring the real item and put it in the frame (right-click the frame with it in your hand; on phone, tap).
+The item stays in the museum for good: you give it up. You can't take it back out.
+The first player to fill a frame is paid once: 10, 25, 50 or 100 Marshmallows, depending on how rare it is.
+Your name goes on the find, and a box opens where you can write one line about how you found it (100 letters at most).
+To write it later, or change it, look at your frame and type `/museum story <words>`.
+A renamed item loses its anvil name when it goes up. Staff can also add a find from a screenshot.
+The museum opens when staff say so; until then the frames don't take anything.
+
 ### Why Prices Move
 
 Contracts follow what the world needs that week.
