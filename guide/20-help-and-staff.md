@@ -15,15 +15,15 @@ Type a word like *stamp*, *grave* or *charter* and jump straight to the page.
 
 Press **Ask for Help** and type what's wrong.
 Every staff member who's online sees it right away.
-If nobody's on, send a report instead; the Wardens read reports on Discord.
+If nobody's on, send a report instead; staff read reports on Discord.
 
 - **Ask for Help:** `/guide help`
 - **Report a Problem:** `/rreport`
 
 ### Reporting a Problem
 
-**Report a Problem** opens a private form that goes to the Wardens.
-Your name is optional, and the Wardens never see which account sent it; only the operator can look it up.
+**Report a Problem** opens a private form that goes to the staff.
+Your name is optional, and staff never see which account sent it; only the operator can look it up.
 Say what happened and where. You can send one report every 5 minutes, and ask for help once a minute.
 
 ### Who the Staff Are
